@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="emicalculator.Test.TestClass">
+        <methods>
+          <include name="getDriver"/>
+          <include name="setup"/>
+          <include name="expand"/>
+          <include name="screenshot"/>
+          <include name="selectamount"/>
+          <include name="selectTenure"/>
+          <include name="objectRef"/>
+          <include name="selectInterestRate"/>
+          <include name="selectLoanType"/>
+          <include name="writeDataInExcel"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- emicalculator.Test.TestClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
