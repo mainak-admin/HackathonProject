@@ -32,13 +32,14 @@ public class TestClass
   {
 	  DriverSetup drv = new DriverSetup();
 	  driver = drv.getDriver();
+	   
   }
   
   @BeforeTest
   public void setup()
   {
 	  log.info("**********************Logging into browser**********************");
-	  driver.manage().window().maximize(); 
+	  driver.manage().window().maximize();
   }
   
   @BeforeClass
@@ -60,43 +61,52 @@ public class TestClass
 	  Assert.assertEquals(title, "EMI Calculator for Home Loan, Car Loan & Personal Loan in India");
   }
   
-  @Test(priority = 1)
+  @Test(priority = 1, description = "Select the type of loan")
+  @Severity(SeverityLevel.NORMAL)
+  @Description("Test Case Description: Select the type of loan --> Home/Personal/Car")
   public void selectLoanType() throws Exception
   {
 	  emi.selectCarLoan();
   }
   
-  @Test(priority = 2)
+  @Test(priority = 2, description = "Enter the car loan amount")
+  @Severity(SeverityLevel.NORMAL)
+  @Description("Test Case Description: To enter the car loan amount from excel sheet")
   public void selectamount() throws Exception
   {
 	  emi.carloanAmount(read.readExcel()[0]);
   }
   
-  @Test(priority = 3)
+  @Test(priority = 3, description = "Enter the rate of interest")
+  @Severity(SeverityLevel.NORMAL)
+  @Description("Test Case Description: To enter the rate of interest from the excel sheet")
   public void selectInterestRate() throws Exception
   {
 	  emi.interestRate(read.readExcel()[1]);
   }
   
-  @Test(priority = 4)
+  @Test(priority = 4, description = "Enter the time period")
+  @Severity(SeverityLevel.NORMAL)
+  @Description("Test Case Description: To enter the time period for payment of interest")
   public void selectTenure() throws Exception
   {
 	  emi.tenure(read.readExcel()[2]);
   }
   
-  @Test(priority = 5)
+  @Test(priority = 5, description = "Click on the expand button")
+  @Severity(SeverityLevel.NORMAL)
   public void expand() throws Exception
   {
 	  emi.expand2020();
   }
   
-  @Test(priority = 6)
+  @Test(priority = 6, description = "To take the screenshot")
   public void screenshot() throws Exception
   {
 	  emi.screenshot(driver);
   }
   
-  @Test(priority = 7)
+  @Test(priority = 7, description = "To write the final values in excel sheet")
   public void writeDataInExcel() throws Exception
   {
 	  emi.getData();
@@ -105,6 +115,7 @@ public class TestClass
   @AfterSuite
   public void closeDriver() 
   {
+	  log.info("**********************Closing browser**********************");
 	  driver.quit();
   }
 

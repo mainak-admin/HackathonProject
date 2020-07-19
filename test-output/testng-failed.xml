@@ -8,6 +8,7 @@
           <include name="getDriver"/>
           <include name="setup"/>
           <include name="expand"/>
+          <include name="getTitle"/>
           <include name="screenshot"/>
           <include name="selectamount"/>
           <include name="selectTenure"/>

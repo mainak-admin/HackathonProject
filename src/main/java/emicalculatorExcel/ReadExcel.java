@@ -14,7 +14,7 @@ public class ReadExcel {
 	{
 		
 		
-			//Read data from excel file
+			//Read data from excel sheet
 			File filepath = new File("C:\\Users\\user\\Desktop\\Codes\\TestData\\emiCalculatorTest.xlsx");
 			
 			FileInputStream fis = new FileInputStream(filepath);
@@ -25,9 +25,13 @@ public class ReadExcel {
 			{
 				double input = row.getCell(i).getNumericCellValue();
 				data[i] = Double.toString(input);
+				wb.close();
 			}
 			
+			//Return the value from excel sheet
 			return data;
+			
+			
 			
 	}
 	

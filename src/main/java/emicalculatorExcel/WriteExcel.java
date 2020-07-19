@@ -16,7 +16,7 @@ public class WriteExcel
 	public void getValues(String month, String principal, String interest) throws IOException
 	{
 
-
+		//Writing data into excel sheet
 		XSSFWorkbook wb = new XSSFWorkbook();
 		XSSFSheet sh= wb.createSheet("Output_Data");
 
@@ -43,18 +43,15 @@ public class WriteExcel
 
 		Cell c6 = row2.createCell(2);
 		c6.setCellValue(interest);
-
+		
+		//To set date-time format for the output file
 		String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		File file = new File("C:\\Users\\user\\Desktop\\Codes\\TestData\\Output_Data"+timestamp+".xlsx");
 		FileOutputStream fos = new FileOutputStream(file);
 		wb.write(fos);
+		wb.close();
 		
-
-
-
+		
 	}
-
-
-
 
 }

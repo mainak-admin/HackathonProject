@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="23.184" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="20.189" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="EmiCalculatorTest"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/EmiCalculatorTest/10/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/EmiCalculatorTest/11/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
@@ -28,8 +28,8 @@
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="EmiCalculatorTest"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/EmiCalculatorTest/10/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#10"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/EmiCalculatorTest/11/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#11"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Users\user\AppData\Local"/>
     <property name="java.version" value="1.8.0_241"/>
@@ -39,7 +39,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="10"/>
+    <property name="BUILD_ID" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -55,10 +55,10 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="6.1"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/EmiCalculatorTest/10/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/EmiCalculatorTest/11/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Users\user\AppData\Local\Temp"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/EmiCalculatorTest/10/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/EmiCalculatorTest/11/display/redirect?page=artifacts"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.241-b07"/>
     <property name="user.variant" value=""/>
@@ -78,7 +78,7 @@
     <property name="POM_GROUPID" value="group4"/>
     <property name="user.home" value="C:\Users\user"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-EmiCalculatorTest-10"/>
+    <property name="BUILD_TAG" value="jenkins-EmiCalculatorTest-11"/>
     <property name="JENKINS_SERVER_COOKIE" value="a64aef3ce8c7cda0"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -86,14 +86,14 @@
     <property name="USERPROFILE" value="C:\Users\user"/>
     <property name="CLASSPATH" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\room\Maven\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\C:;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\nodejs\;C:\room\Maven\apache-maven-3.6.3\bin;C:\room\Allure\allure-2.13.5\bin;C:\Users\user\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python37\;C:\Users\user\AppData\Roaming\npm;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\room\Maven\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\C:;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\nodejs\;C:\room\Maven\apache-maven-3.6.3\bin;C:\room\Allure\allure-2.13.5\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\room\Internet explorer driver;C:\Users\user\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python37\;C:\Users\user\AppData\Roaming\npm;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="APPDATA" value="C:\Users\user\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\room\Maven\apache-maven-3.6.3"/>
     <property name="java.class.path" value="C:\Users\user\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\room\Maven\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\room\Maven\apache-maven-3.6.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\room\Maven\apache-maven-3.6.3 C:\Users\user\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\user\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\user\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 49690"/>
-    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\C:;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\nodejs\;C:\room\Maven\apache-maven-3.6.3\bin;C:\room\Allure\allure-2.13.5\bin;C:\Users\user\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python37\;C:\Users\user\AppData\Roaming\npm;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\room\Maven\apache-maven-3.6.3 C:\Users\user\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\user\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\user\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 51381"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\C:;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\nodejs\;C:\room\Maven\apache-maven-3.6.3\bin;C:\room\Allure\allure-2.13.5\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\room\Internet explorer driver;C:\Users\user\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python37\;C:\Users\user\AppData\Roaming\npm;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_241/bin"/>
@@ -108,7 +108,7 @@
     <property name="HUDSON_HOME" value="C:\Users\user\.jenkins"/>
     <property name="PATH+MAVEN" value="C:\room\Maven\apache-maven-3.6.3/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/EmiCalculatorTest/10/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/EmiCalculatorTest/11/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -122,7 +122,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="C:\room\Maven\apache-maven-3.6.3"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="10"/>
+    <property name="BUILD_NUMBER" value="11"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="2a07"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
@@ -138,12 +138,12 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
   </properties>
-  <testcase name="getTitle" classname="emicalculator.Test.TestClass" time="0.094"/>
-  <testcase name="selectLoanType" classname="emicalculator.Test.TestClass" time="3.326"/>
-  <testcase name="selectamount" classname="emicalculator.Test.TestClass" time="6.361"/>
-  <testcase name="selectInterestRate" classname="emicalculator.Test.TestClass" time="4.422"/>
-  <testcase name="selectTenure" classname="emicalculator.Test.TestClass" time="4.34"/>
-  <testcase name="expand" classname="emicalculator.Test.TestClass" time="3.426"/>
-  <testcase name="screenshot" classname="emicalculator.Test.TestClass" time="0.501"/>
-  <testcase name="writeDataInExcel" classname="emicalculator.Test.TestClass" time="0.714"/>
+  <testcase name="getTitle" classname="emicalculator.Test.TestClass" time="0.077"/>
+  <testcase name="selectLoanType" classname="emicalculator.Test.TestClass" time="3.719"/>
+  <testcase name="selectamount" classname="emicalculator.Test.TestClass" time="5.383"/>
+  <testcase name="selectInterestRate" classname="emicalculator.Test.TestClass" time="3.383"/>
+  <testcase name="selectTenure" classname="emicalculator.Test.TestClass" time="3.487"/>
+  <testcase name="expand" classname="emicalculator.Test.TestClass" time="3.133"/>
+  <testcase name="screenshot" classname="emicalculator.Test.TestClass" time="0.402"/>
+  <testcase name="writeDataInExcel" classname="emicalculator.Test.TestClass" time="0.605"/>
 </testsuite>

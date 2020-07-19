@@ -17,7 +17,6 @@ import org.openqa.selenium.support.PageFactory;
 import emicalculatorExcel.WriteExcel;
 import io.qameta.allure.Step;
 
-//base class
 public class AutomateEmiCalculator					 
 {
 	WebDriver driver;
@@ -27,33 +26,40 @@ public class AutomateEmiCalculator
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-
+	
+	//Locate the car loan tab
 	@FindBy(xpath = "//*[text()='Car Loan']")
 	public WebElement CarLoan; 
 	
+	//Locate loan amount field
 	@FindBy(id = "loanamount")
 	public WebElement CarloanAmount;
 	
+	//Locate rate of interest field
 	@FindBy(id = "loaninterest")
 	public WebElement CarloanInterest;
 	
+	//Locate the field for loan tenure 
 	@FindBy(id = "loanterm")
 	public WebElement CarloanTenure;
 	
+	//Locate the expand button
 	@FindBy(id = "year2020")
 	public WebElement expand;
 	
+	//Locate the month July
 	@FindBy(xpath = "//*[@id='monthyear2020']//table//tbody//tr[1]//td[1]")
 	public WebElement month;
 	
+	//Locate the principal amount for the month july
 	@FindBy(xpath = "//*[@id='monthyear2020']//table//tbody//tr[1]//td[2]")
 	public WebElement principalAmount;
 	
+	//Locate the interest amount for the month july
 	@FindBy(xpath = "//*[@id='monthyear2020']//table//tbody//tr[1]//td[3]")
 	public WebElement interestAmount;
 	
-
-	//To click on CarLoan button
+	
 	@Step("Click on the car loan tab")
 	public void selectCarLoan() throws Exception
 	{
@@ -62,35 +68,35 @@ public class AutomateEmiCalculator
 
 	}
 
-	//To enter data in the LoanAmount field
+	@Step("To enter data in the LoanAmount field")
 	public void carloanAmount(String loanAmount) throws Exception
 	{
 		CarloanAmount.sendKeys(Keys.CONTROL,"a");
 		CarloanAmount.sendKeys(Keys.DELETE);
 		CarloanAmount.sendKeys(loanAmount);
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 	}
 
-	//To enter data in the interest field
+	@Step("To enter data in the interest field")
 	public void interestRate(String interest) throws Exception
 	{
 		CarloanInterest.sendKeys(Keys.CONTROL,"a");
 		CarloanInterest.sendKeys(Keys.DELETE);
 		CarloanInterest.sendKeys(interest);
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 
 	}
 
-	//To enter data in the tenure field
+	@Step("To enter data in the tenure field")
 	public void tenure(String timeperiod) throws Exception
 	{
 		CarloanTenure.sendKeys(Keys.CONTROL,"a");
 		CarloanTenure.sendKeys(Keys.DELETE);
 		CarloanTenure.sendKeys(timeperiod);
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 	}
 
-	//To click on the expand button
+	@Step("To click on the expand button")
 	public void expand2020() throws Exception
 	{
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -100,7 +106,7 @@ public class AutomateEmiCalculator
 
 	}
 
-	//To take a screenshot
+	@Step("To take a screenshot")
 	public void screenshot(WebDriver driver) throws IOException
 	{
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
@@ -109,7 +115,8 @@ public class AutomateEmiCalculator
 		FileUtils.copyFile(CaptureImg, new File("./ErrorImages/"+timeStamp+"_error.jpg"));
 
 	}
-
+	
+	@Step("Write data in an excel sheet")
 	public void getData() throws IOException
 	{
 

@@ -2,56 +2,56 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Emi Calculator Test Automation Test Suite" duration-ms="27713" started-at="2020-07-17T22:31:28 IST" finished-at="2020-07-17T22:31:56 IST">
+  <suite name="Emi Calculator Test Automation Test Suite" duration-ms="23101" started-at="2020-07-19T13:37:27 IST" finished-at="2020-07-19T13:37:51 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="27713" started-at="2020-07-17T22:31:28 IST" finished-at="2020-07-17T22:31:56 IST">
+    <test name="Test" duration-ms="23101" started-at="2020-07-19T13:37:27 IST" finished-at="2020-07-19T13:37:51 IST">
       <class name="emicalculator.Test.TestClass">
-        <test-method status="PASS" signature="getDriver()[pri:0, instance:emicalculator.Test.TestClass@1a1da881]" name="getDriver" is-config="true" duration-ms="15615" started-at="2020-07-17T22:31:13 IST" finished-at="2020-07-17T22:31:28 IST">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:emicalculator.Test.TestClass@716a7124]" name="getDriver" is-config="true" duration-ms="14712" started-at="2020-07-19T13:37:13 IST" finished-at="2020-07-19T13:37:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:emicalculator.Test.TestClass@1a1da881]" name="setup" is-config="true" duration-ms="3954" started-at="2020-07-17T22:31:28 IST" finished-at="2020-07-17T22:31:32 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:emicalculator.Test.TestClass@716a7124]" name="setup" is-config="true" duration-ms="1958" started-at="2020-07-19T13:37:27 IST" finished-at="2020-07-19T13:37:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="objectRef()[pri:0, instance:emicalculator.Test.TestClass@1a1da881]" name="objectRef" is-config="true" duration-ms="186" started-at="2020-07-17T22:31:32 IST" finished-at="2020-07-17T22:31:33 IST">
+        <test-method status="PASS" signature="objectRef()[pri:0, instance:emicalculator.Test.TestClass@716a7124]" name="objectRef" is-config="true" duration-ms="235" started-at="2020-07-19T13:37:29 IST" finished-at="2020-07-19T13:37:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objectRef -->
-        <test-method status="PASS" signature="getTitle()[pri:0, instance:emicalculator.Test.TestClass@1a1da881]" name="getTitle" duration-ms="79" started-at="2020-07-17T22:31:33 IST" description="verifying title of the webpage page" finished-at="2020-07-17T22:31:33 IST">
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:emicalculator.Test.TestClass@716a7124]" name="getTitle" duration-ms="103" started-at="2020-07-19T13:37:30 IST" description="verifying title of the webpage page" finished-at="2020-07-19T13:37:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method status="PASS" signature="selectLoanType()[pri:1, instance:emicalculator.Test.TestClass@1a1da881]" name="selectLoanType" duration-ms="3332" started-at="2020-07-17T22:31:33 IST" finished-at="2020-07-17T22:31:36 IST">
+        <test-method status="PASS" signature="selectLoanType()[pri:1, instance:emicalculator.Test.TestClass@716a7124]" name="selectLoanType" duration-ms="3778" started-at="2020-07-19T13:37:30 IST" description="Select the type of loan" finished-at="2020-07-19T13:37:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLoanType -->
-        <test-method status="PASS" signature="selectamount()[pri:2, instance:emicalculator.Test.TestClass@1a1da881]" name="selectamount" duration-ms="6367" started-at="2020-07-17T22:31:36 IST" finished-at="2020-07-17T22:31:43 IST">
+        <test-method status="PASS" signature="selectamount()[pri:2, instance:emicalculator.Test.TestClass@716a7124]" name="selectamount" duration-ms="5502" started-at="2020-07-19T13:37:34 IST" description="Enter the car loan amount" finished-at="2020-07-19T13:37:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectamount -->
-        <test-method status="PASS" signature="selectInterestRate()[pri:3, instance:emicalculator.Test.TestClass@1a1da881]" name="selectInterestRate" duration-ms="4421" started-at="2020-07-17T22:31:43 IST" finished-at="2020-07-17T22:31:47 IST">
+        <test-method status="PASS" signature="selectInterestRate()[pri:3, instance:emicalculator.Test.TestClass@716a7124]" name="selectInterestRate" duration-ms="3385" started-at="2020-07-19T13:37:40 IST" description="Enter the rate of interest" finished-at="2020-07-19T13:37:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectInterestRate -->
-        <test-method status="PASS" signature="selectTenure()[pri:4, instance:emicalculator.Test.TestClass@1a1da881]" name="selectTenure" duration-ms="4337" started-at="2020-07-17T22:31:47 IST" finished-at="2020-07-17T22:31:51 IST">
+        <test-method status="PASS" signature="selectTenure()[pri:4, instance:emicalculator.Test.TestClass@716a7124]" name="selectTenure" duration-ms="3479" started-at="2020-07-19T13:37:43 IST" description="Enter the time period" finished-at="2020-07-19T13:37:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectTenure -->
-        <test-method status="PASS" signature="expand()[pri:5, instance:emicalculator.Test.TestClass@1a1da881]" name="expand" duration-ms="3430" started-at="2020-07-17T22:31:51 IST" finished-at="2020-07-17T22:31:55 IST">
+        <test-method status="PASS" signature="expand()[pri:5, instance:emicalculator.Test.TestClass@716a7124]" name="expand" duration-ms="3130" started-at="2020-07-19T13:37:46 IST" description="Click on the expand button" finished-at="2020-07-19T13:37:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- expand -->
-        <test-method status="PASS" signature="screenshot()[pri:6, instance:emicalculator.Test.TestClass@1a1da881]" name="screenshot" duration-ms="501" started-at="2020-07-17T22:31:55 IST" finished-at="2020-07-17T22:31:55 IST">
+        <test-method status="PASS" signature="screenshot()[pri:6, instance:emicalculator.Test.TestClass@716a7124]" name="screenshot" duration-ms="404" started-at="2020-07-19T13:37:50 IST" description="To take the screenshot" finished-at="2020-07-19T13:37:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshot -->
-        <test-method status="PASS" signature="writeDataInExcel()[pri:7, instance:emicalculator.Test.TestClass@1a1da881]" name="writeDataInExcel" duration-ms="714" started-at="2020-07-17T22:31:55 IST" finished-at="2020-07-17T22:31:56 IST">
+        <test-method status="PASS" signature="writeDataInExcel()[pri:7, instance:emicalculator.Test.TestClass@716a7124]" name="writeDataInExcel" duration-ms="604" started-at="2020-07-19T13:37:50 IST" description="To write the final values in excel sheet" finished-at="2020-07-19T13:37:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeDataInExcel -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:emicalculator.Test.TestClass@1a1da881]" name="closeDriver" is-config="true" duration-ms="893" started-at="2020-07-17T22:31:56 IST" finished-at="2020-07-17T22:31:57 IST">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:emicalculator.Test.TestClass@716a7124]" name="closeDriver" is-config="true" duration-ms="895" started-at="2020-07-19T13:37:51 IST" finished-at="2020-07-19T13:37:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
