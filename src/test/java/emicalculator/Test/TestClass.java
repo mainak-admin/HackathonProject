@@ -56,6 +56,7 @@ public class TestClass
   public void getTitle()
   {
 	  log.info("**********************Starting test cases**********************");
+	  log.info("**********************Fetching the page title**********************");
 	  String title = driver.getTitle();
 	  System.out.println(title);
 	  Assert.assertEquals(title, "EMI Calculator for Home Loan, Car Loan & Personal Loan in India");
@@ -66,6 +67,7 @@ public class TestClass
   @Description("Test Case Description: Select the type of loan --> Home/Personal/Car")
   public void selectLoanType() throws Exception
   {
+	  log.info("**********************Clicking on car loan tab**********************");
 	  emi.selectCarLoan();
   }
   
@@ -74,6 +76,7 @@ public class TestClass
   @Description("Test Case Description: To enter the car loan amount from excel sheet")
   public void selectamount() throws Exception
   {
+	  log.info("**********************Entering loan amount**********************");
 	  emi.carloanAmount(read.readExcel()[0]);
   }
   
@@ -82,6 +85,7 @@ public class TestClass
   @Description("Test Case Description: To enter the rate of interest from the excel sheet")
   public void selectInterestRate() throws Exception
   {
+	  log.info("**********************Entering rate of interest**********************");
 	  emi.interestRate(read.readExcel()[1]);
   }
   
@@ -90,6 +94,7 @@ public class TestClass
   @Description("Test Case Description: To enter the time period for payment of interest")
   public void selectTenure() throws Exception
   {
+	  log.info("**********************Entering the time period**********************");
 	  emi.tenure(read.readExcel()[2]);
   }
   
@@ -97,18 +102,21 @@ public class TestClass
   @Severity(SeverityLevel.NORMAL)
   public void expand() throws Exception
   {
+	  log.info("**********************Clicking on expand button**********************");
 	  emi.expand2020();
   }
   
   @Test(priority = 6, description = "To take the screenshot")
   public void screenshot() throws Exception
   {
+	  log.info("**********************Taking screenshot**********************");
 	  emi.screenshot(driver);
   }
   
   @Test(priority = 7, description = "To write the final values in excel sheet")
   public void writeDataInExcel() throws Exception
   {
+	  log.info("**********************Writing data to excel sheet**********************");
 	  emi.getData();
   }
   

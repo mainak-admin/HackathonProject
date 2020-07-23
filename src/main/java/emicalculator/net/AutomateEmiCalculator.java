@@ -112,7 +112,7 @@ public class AutomateEmiCalculator
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		TakesScreenshot ScrObj = (TakesScreenshot) driver;
 		File CaptureImg = ScrObj.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(CaptureImg, new File("./ErrorImages/"+timeStamp+"_error.jpg"));
+		FileUtils.copyFile(CaptureImg, new File("./ErrorImages/"+timeStamp+"_capture.jpg"));
 
 	}
 	

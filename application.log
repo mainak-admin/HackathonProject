@@ -1,72 +1,79 @@
-2020-07-19 13:37:13,950 DEBUG [main] InternalLoggerFactory:53 - Using Log4J as the default logging framework
-2020-07-19 13:37:13,970 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
-2020-07-19 13:37:13,971 DEBUG [main] ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
-2020-07-19 13:37:13,982 DEBUG [main] ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6df7988f
-2020-07-19 13:37:14,186 DEBUG [main] PlatformDependent:1015 - Platform: Windows
-2020-07-19 13:37:14,191 DEBUG [main] PlatformDependent0:408 - -Dio.netty.noUnsafe: false
-2020-07-19 13:37:14,192 DEBUG [main] PlatformDependent0:876 - Java version: 8
-2020-07-19 13:37:14,197 DEBUG [main] PlatformDependent0:125 - sun.misc.Unsafe.theUnsafe: available
-2020-07-19 13:37:14,200 DEBUG [main] PlatformDependent0:149 - sun.misc.Unsafe.copyMemory: available
-2020-07-19 13:37:14,201 DEBUG [main] PlatformDependent0:187 - java.nio.Buffer.address: available
-2020-07-19 13:37:14,203 DEBUG [main] PlatformDependent0:252 - direct buffer constructor: available
-2020-07-19 13:37:14,206 DEBUG [main] PlatformDependent0:326 - java.nio.Bits.unaligned: available, true
-2020-07-19 13:37:14,206 DEBUG [main] PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
-2020-07-19 13:37:14,207 DEBUG [main] PlatformDependent0:398 - java.nio.DirectByteBuffer.<init>(long, int): available
-2020-07-19 13:37:14,207 DEBUG [main] PlatformDependent:1058 - sun.misc.Unsafe: available
-2020-07-19 13:37:14,208 DEBUG [main] PlatformDependent:1177 - -Dio.netty.tmpdir: C:\Users\user\AppData\Local\Temp (java.io.tmpdir)
-2020-07-19 13:37:14,210 DEBUG [main] PlatformDependent:1256 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2020-07-19 13:37:14,215 DEBUG [main] PlatformDependent:177 - -Dio.netty.maxDirectMemory: 947388416 bytes
-2020-07-19 13:37:14,215 DEBUG [main] PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2020-07-19 13:37:14,219 DEBUG [main] CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
-2020-07-19 13:37:14,219 DEBUG [main] PlatformDependent:204 - -Dio.netty.noPreferDirect: false
-2020-07-19 13:37:14,276 DEBUG [main] PlatformDependent:919 - org.jctools-core.MpscChunkedArrayQueue: available
-2020-07-19 13:37:14,779 DEBUG [main] JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
-2020-07-19 13:37:14,779 DEBUG [main] JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
-2020-07-19 13:37:14,863 DEBUG [main] InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2020-07-19 13:37:14,863 DEBUG [main] InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2020-07-19 13:37:14,878 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
-2020-07-19 13:37:14,924 DEBUG [main] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
-2020-07-19 13:37:14,924 DEBUG [main] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
-2020-07-19 13:37:15,037 DEBUG [main] PooledByteBufAllocator:156 - -Dio.netty.allocator.numHeapArenas: 8
-2020-07-19 13:37:15,038 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numDirectArenas: 8
-2020-07-19 13:37:15,038 DEBUG [main] PooledByteBufAllocator:159 - -Dio.netty.allocator.pageSize: 8192
-2020-07-19 13:37:15,038 DEBUG [main] PooledByteBufAllocator:164 - -Dio.netty.allocator.maxOrder: 11
-2020-07-19 13:37:15,039 DEBUG [main] PooledByteBufAllocator:168 - -Dio.netty.allocator.chunkSize: 16777216
-2020-07-19 13:37:15,040 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.tinyCacheSize: 512
-2020-07-19 13:37:15,040 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
-2020-07-19 13:37:15,041 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
-2020-07-19 13:37:15,042 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2020-07-19 13:37:15,042 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
-2020-07-19 13:37:15,042 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2020-07-19 13:37:15,043 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: true
-2020-07-19 13:37:15,044 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2020-07-19 13:37:15,062 DEBUG [main] ByteBufUtil:86 - -Dio.netty.allocator.type: pooled
-2020-07-19 13:37:15,062 DEBUG [main] ByteBufUtil:95 - -Dio.netty.threadLocalDirectBufferSize: 0
-2020-07-19 13:37:15,062 DEBUG [main] ByteBufUtil:98 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2020-07-19 13:37:16,613 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 7452 (auto-detected)
-2020-07-19 13:37:16,613 DEBUG [Forwarding newSession on session null to remote] NetUtil:139 - -Djava.net.preferIPv4Stack: false
-2020-07-19 13:37:16,613 DEBUG [Forwarding newSession on session null to remote] NetUtil:140 - -Djava.net.preferIPv6Addresses: false
-2020-07-19 13:37:16,665 DEBUG [Forwarding newSession on session null to remote] NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2020-07-19 13:37:16,667 DEBUG [Forwarding newSession on session null to remote] NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2020-07-19 13:37:16,720 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: b4:2e:99:ff:fe:4f:57:98 (auto-detected)
-2020-07-19 13:37:16,843 DEBUG [AsyncHttpClient-3-1] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
-2020-07-19 13:37:16,843 DEBUG [AsyncHttpClient-3-1] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
-2020-07-19 13:37:16,843 DEBUG [AsyncHttpClient-3-1] ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3640e98f
-2020-07-19 13:37:16,947 DEBUG [AsyncHttpClient-3-1] Recycler:97 - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2020-07-19 13:37:16,948 DEBUG [AsyncHttpClient-3-1] Recycler:98 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
-2020-07-19 13:37:16,948 DEBUG [AsyncHttpClient-3-1] Recycler:99 - -Dio.netty.recycler.linkCapacity: 16
-2020-07-19 13:37:16,949 DEBUG [AsyncHttpClient-3-1] Recycler:100 - -Dio.netty.recycler.ratio: 8
-2020-07-19 13:37:22,209 DEBUG [main] ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0xa797245a08670924
-2020-07-19 13:37:27,950  INFO [main] TestClass:41 - **********************Logging into browser**********************
-2020-07-19 13:37:30,299  INFO [main] TestClass:58 - **********************Starting test cases**********************
-2020-07-19 13:37:51,118  INFO [main] TestClass:118 - **********************Closing browser**********************
-2020-07-19 13:37:52,311 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-07-19 13:37:52,314 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-07-19 13:37:52,317 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-07-19 13:37:52,318 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-07-19 13:37:52,319 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-07-19 13:37:52,795 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-07-19 13:37:52,795 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-07-19 13:37:52,811 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-07-19 13:37:52,811 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-07-19 13:37:52,811 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-07-23 20:40:16,777 DEBUG [main] InternalLoggerFactory:53 - Using Log4J as the default logging framework
+2020-07-23 20:40:16,798 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
+2020-07-23 20:40:16,799 DEBUG [main] ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
+2020-07-23 20:40:16,811 DEBUG [main] ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@585c13de
+2020-07-23 20:40:16,903 DEBUG [main] PlatformDependent:1015 - Platform: Windows
+2020-07-23 20:40:16,908 DEBUG [main] PlatformDependent0:408 - -Dio.netty.noUnsafe: false
+2020-07-23 20:40:16,908 DEBUG [main] PlatformDependent0:876 - Java version: 8
+2020-07-23 20:40:16,912 DEBUG [main] PlatformDependent0:125 - sun.misc.Unsafe.theUnsafe: available
+2020-07-23 20:40:16,914 DEBUG [main] PlatformDependent0:149 - sun.misc.Unsafe.copyMemory: available
+2020-07-23 20:40:16,916 DEBUG [main] PlatformDependent0:187 - java.nio.Buffer.address: available
+2020-07-23 20:40:16,918 DEBUG [main] PlatformDependent0:252 - direct buffer constructor: available
+2020-07-23 20:40:16,920 DEBUG [main] PlatformDependent0:326 - java.nio.Bits.unaligned: available, true
+2020-07-23 20:40:16,920 DEBUG [main] PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-07-23 20:40:16,920 DEBUG [main] PlatformDependent0:398 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-07-23 20:40:16,920 DEBUG [main] PlatformDependent:1058 - sun.misc.Unsafe: available
+2020-07-23 20:40:16,921 DEBUG [main] PlatformDependent:1177 - -Dio.netty.tmpdir: C:\Users\user\AppData\Local\Temp (java.io.tmpdir)
+2020-07-23 20:40:16,923 DEBUG [main] PlatformDependent:1256 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-07-23 20:40:16,926 DEBUG [main] PlatformDependent:177 - -Dio.netty.maxDirectMemory: 947388416 bytes
+2020-07-23 20:40:16,927 DEBUG [main] PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-07-23 20:40:16,930 DEBUG [main] CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2020-07-23 20:40:16,930 DEBUG [main] PlatformDependent:204 - -Dio.netty.noPreferDirect: false
+2020-07-23 20:40:17,187 DEBUG [main] PlatformDependent:919 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-07-23 20:40:17,593 DEBUG [main] JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-07-23 20:40:17,593 DEBUG [main] JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-07-23 20:40:17,695 DEBUG [main] InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-07-23 20:40:17,695 DEBUG [main] InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-07-23 20:40:17,725 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2020-07-23 20:40:17,760 DEBUG [main] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2020-07-23 20:40:17,761 DEBUG [main] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-07-23 20:40:17,873 DEBUG [main] PooledByteBufAllocator:156 - -Dio.netty.allocator.numHeapArenas: 8
+2020-07-23 20:40:17,873 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numDirectArenas: 8
+2020-07-23 20:40:17,874 DEBUG [main] PooledByteBufAllocator:159 - -Dio.netty.allocator.pageSize: 8192
+2020-07-23 20:40:17,874 DEBUG [main] PooledByteBufAllocator:164 - -Dio.netty.allocator.maxOrder: 11
+2020-07-23 20:40:17,874 DEBUG [main] PooledByteBufAllocator:168 - -Dio.netty.allocator.chunkSize: 16777216
+2020-07-23 20:40:17,875 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-07-23 20:40:17,875 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2020-07-23 20:40:17,875 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2020-07-23 20:40:17,876 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-07-23 20:40:17,876 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-07-23 20:40:17,876 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-07-23 20:40:17,877 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-07-23 20:40:17,877 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-07-23 20:40:17,907 DEBUG [main] ByteBufUtil:86 - -Dio.netty.allocator.type: pooled
+2020-07-23 20:40:17,907 DEBUG [main] ByteBufUtil:95 - -Dio.netty.threadLocalDirectBufferSize: 0
+2020-07-23 20:40:17,908 DEBUG [main] ByteBufUtil:98 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-07-23 20:40:18,963 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 2020 (auto-detected)
+2020-07-23 20:40:18,969 DEBUG [Forwarding newSession on session null to remote] NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2020-07-23 20:40:18,969 DEBUG [Forwarding newSession on session null to remote] NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2020-07-23 20:40:19,017 DEBUG [Forwarding newSession on session null to remote] NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-07-23 20:40:19,019 DEBUG [Forwarding newSession on session null to remote] NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-07-23 20:40:19,061 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: b4:2e:99:ff:fe:4f:57:98 (auto-detected)
+2020-07-23 20:40:19,212 DEBUG [AsyncHttpClient-3-1] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2020-07-23 20:40:19,213 DEBUG [AsyncHttpClient-3-1] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2020-07-23 20:40:19,213 DEBUG [AsyncHttpClient-3-1] ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@715bbc79
+2020-07-23 20:40:19,286 DEBUG [AsyncHttpClient-3-1] Recycler:97 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-07-23 20:40:19,287 DEBUG [AsyncHttpClient-3-1] Recycler:98 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-07-23 20:40:19,287 DEBUG [AsyncHttpClient-3-1] Recycler:99 - -Dio.netty.recycler.linkCapacity: 16
+2020-07-23 20:40:19,287 DEBUG [AsyncHttpClient-3-1] Recycler:100 - -Dio.netty.recycler.ratio: 8
+2020-07-23 20:40:25,522  INFO [main] TestClass:41 - **********************Logging into browser**********************
+2020-07-23 20:40:28,913  INFO [main] TestClass:58 - **********************Starting test cases**********************
+2020-07-23 20:40:28,915  INFO [main] TestClass:59 - **********************Fetching the page title**********************
+2020-07-23 20:40:29,746  INFO [main] TestClass:70 - **********************Clicking on car loan tab**********************
+2020-07-23 20:40:33,139  INFO [main] TestClass:79 - **********************Entering loan amount**********************
+2020-07-23 20:40:38,626  INFO [main] TestClass:88 - **********************Entering rate of interest**********************
+2020-07-23 20:40:42,048  INFO [main] TestClass:97 - **********************Entering the time period**********************
+2020-07-23 20:40:45,485  INFO [main] TestClass:105 - **********************Clicking on expand button**********************
+2020-07-23 20:40:48,635  INFO [main] TestClass:112 - **********************Taking screenshot**********************
+2020-07-23 20:40:49,110  INFO [main] TestClass:119 - **********************Writing data to excel sheet**********************
+2020-07-23 20:40:49,629  INFO [main] TestClass:126 - **********************Closing browser**********************
+2020-07-23 20:40:50,427 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-07-23 20:40:50,428 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-07-23 20:40:50,432 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-07-23 20:40:50,433 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-07-23 20:40:50,434 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-07-23 20:40:50,857 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-07-23 20:40:50,858 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-07-23 20:40:50,858 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-07-23 20:40:50,859 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-07-23 20:40:50,859 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
