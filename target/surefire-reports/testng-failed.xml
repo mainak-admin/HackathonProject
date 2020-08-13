@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Emi Calculator Test Automation Negative Test Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="emicalculator.Test.NegativeTestClass">
+        <methods>
+          <include name="flush"/>
+          <include name="selectInterestRate_NegativeTest"/>
+          <include name="closeDriver_NegativeTest"/>
+          <include name="setup_NegativeTest"/>
+        </methods>
+      </class> <!-- emicalculator.Test.NegativeTestClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Emi Calculator Test Automation Negative Test Suite] -->

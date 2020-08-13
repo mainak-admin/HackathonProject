@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jul 19 13:06:57 IST 2020</td>
+<td>Started on:</td><td>Sat Aug 08 21:09:14 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>27 seconds (27763 ms)</td>
+<tr><td>Total time:</td><td>30 seconds (30320 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,92 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='emicalculator.Test.NegativeTestClass.selectInterestRate_NegativeTest()'><b>selectInterestRate_NegativeTest</b><br>Test class: emicalculator.Test.NegativeTestClass</td>
+<td><div><pre>java.lang.AssertionError: expected [0] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at emicalculator.Test.NegativeTestClass.selectInterestRate_NegativeTest(NegativeTestClass.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1577253667", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1577253667'><pre>java.lang.AssertionError: expected [0] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at emicalculator.Test.NegativeTestClass.selectInterestRate_NegativeTest(NegativeTestClass.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>emicalculator.Test.NegativeTestClass@2ca47471</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,45 +161,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='emicalculator.Test.TestClass.expand()'><b>expand</b><br>Test class: emicalculator.Test.TestClass<br>Test method: Click on the expand button</td>
-<td></td>
-<td>3</td>
-<td>emicalculator.Test.TestClass@7d61eccf</td></tr>
-<tr>
-<td title='emicalculator.Test.TestClass.getTitle()'><b>getTitle</b><br>Test class: emicalculator.Test.TestClass<br>Test method: verifying title of the webpage page</td>
+<td title='emicalculator.Test.NegativeTestClass.getTitle_NegativeTest()'><b>getTitle_NegativeTest</b><br>Test class: emicalculator.Test.NegativeTestClass</td>
 <td></td>
 <td>0</td>
-<td>emicalculator.Test.TestClass@7d61eccf</td></tr>
+<td>emicalculator.Test.NegativeTestClass@2ca47471</td></tr>
 <tr>
-<td title='emicalculator.Test.TestClass.screenshot()'><b>screenshot</b><br>Test class: emicalculator.Test.TestClass<br>Test method: To take the screenshot</td>
+<td title='emicalculator.Test.NegativeTestClass.screenshot_NegativeTest()'><b>screenshot_NegativeTest</b><br>Test class: emicalculator.Test.NegativeTestClass</td>
 <td></td>
 <td>0</td>
-<td>emicalculator.Test.TestClass@7d61eccf</td></tr>
+<td>emicalculator.Test.NegativeTestClass@2ca47471</td></tr>
 <tr>
-<td title='emicalculator.Test.TestClass.selectInterestRate()'><b>selectInterestRate</b><br>Test class: emicalculator.Test.TestClass<br>Test method: Enter the rate of interest</td>
+<td title='emicalculator.Test.NegativeTestClass.selectLoanType_NegativeTest()'><b>selectLoanType_NegativeTest</b><br>Test class: emicalculator.Test.NegativeTestClass</td>
 <td></td>
 <td>3</td>
-<td>emicalculator.Test.TestClass@7d61eccf</td></tr>
+<td>emicalculator.Test.NegativeTestClass@2ca47471</td></tr>
 <tr>
-<td title='emicalculator.Test.TestClass.selectLoanType()'><b>selectLoanType</b><br>Test class: emicalculator.Test.TestClass<br>Test method: Select the type of loan</td>
+<td title='emicalculator.Test.NegativeTestClass.selectTenure_NegativeTest()'><b>selectTenure_NegativeTest</b><br>Test class: emicalculator.Test.NegativeTestClass</td>
 <td></td>
 <td>3</td>
-<td>emicalculator.Test.TestClass@7d61eccf</td></tr>
+<td>emicalculator.Test.NegativeTestClass@2ca47471</td></tr>
 <tr>
-<td title='emicalculator.Test.TestClass.selectTenure()'><b>selectTenure</b><br>Test class: emicalculator.Test.TestClass<br>Test method: Enter the time period</td>
+<td title='emicalculator.Test.NegativeTestClass.selectamount_NegativeTest()'><b>selectamount_NegativeTest</b><br>Test class: emicalculator.Test.NegativeTestClass</td>
 <td></td>
-<td>3</td>
-<td>emicalculator.Test.TestClass@7d61eccf</td></tr>
+<td>5</td>
+<td>emicalculator.Test.NegativeTestClass@2ca47471</td></tr>
 <tr>
-<td title='emicalculator.Test.TestClass.selectamount()'><b>selectamount</b><br>Test class: emicalculator.Test.TestClass<br>Test method: Enter the car loan amount</td>
-<td></td>
-<td>9</td>
-<td>emicalculator.Test.TestClass@7d61eccf</td></tr>
-<tr>
-<td title='emicalculator.Test.TestClass.writeDataInExcel()'><b>writeDataInExcel</b><br>Test class: emicalculator.Test.TestClass<br>Test method: To write the final values in excel sheet</td>
+<td title='emicalculator.Test.NegativeTestClass.verifybutton_NegativeTest()'><b>verifybutton_NegativeTest</b><br>Test class: emicalculator.Test.NegativeTestClass</td>
 <td></td>
 <td>0</td>
-<td>emicalculator.Test.TestClass@7d61eccf</td></tr>
+<td>emicalculator.Test.NegativeTestClass@2ca47471</td></tr>
 </table><p>
 </body>
 </html>

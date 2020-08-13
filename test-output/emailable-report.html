@@ -9,17 +9,52 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">27,763</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">30,320</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">emicalculator.Test.TestClass</td><td><a href="#m0">expand</a></td><td rowspan="1">1595144240655</td><td rowspan="1">3119</td></tr><tr class="passedeven"><td><a href="#m1">getTitle</a></td><td rowspan="1">1595144219708</td><td rowspan="1">804</td></tr><tr class="passedeven"><td><a href="#m2">screenshot</a></td><td rowspan="1">1595144243786</td><td rowspan="1">506</td></tr><tr class="passedeven"><td><a href="#m3">selectInterestRate</a></td><td rowspan="1">1595144233572</td><td rowspan="1">3687</td></tr><tr class="passedeven"><td><a href="#m4">selectLoanType</a></td><td rowspan="1">1595144220827</td><td rowspan="1">3469</td></tr><tr class="passedeven"><td><a href="#m5">selectTenure</a></td><td rowspan="1">1595144237267</td><td rowspan="1">3376</td></tr><tr class="passedeven"><td><a href="#m6">selectamount</a></td><td rowspan="1">1595144224388</td><td rowspan="1">9159</td></tr><tr class="passedeven"><td><a href="#m7">writeDataInExcel</a></td><td rowspan="1">1595144244295</td><td rowspan="1">960</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">emicalculator.Test.NegativeTestClass</td><td><a href="#m0">selectInterestRate_NegativeTest</a></td><td rowspan="1">1596901177069</td><td rowspan="1">3504</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">emicalculator.Test.NegativeTestClass</td><td><a href="#m1">getTitle_NegativeTest</a></td><td rowspan="1">1596901166431</td><td rowspan="1">500</td></tr><tr class="passedeven"><td><a href="#m2">screenshot_NegativeTest</a></td><td rowspan="1">1596901184042</td><td rowspan="1">437</td></tr><tr class="passedeven"><td><a href="#m3">selectLoanType_NegativeTest</a></td><td rowspan="1">1596901168602</td><td rowspan="1">3166</td></tr><tr class="passedeven"><td><a href="#m4">selectTenure_NegativeTest</a></td><td rowspan="1">1596901180649</td><td rowspan="1">3334</td></tr><tr class="passedeven"><td><a href="#m5">selectamount_NegativeTest</a></td><td rowspan="1">1596901171900</td><td rowspan="1">5053</td></tr><tr class="passedeven"><td><a href="#m6">verifybutton_NegativeTest</a></td><td rowspan="1">1596901168113</td><td rowspan="1">87</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">emicalculator.Test.TestClass#expand</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">emicalculator.Test.TestClass#getTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">emicalculator.Test.TestClass#screenshot</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">emicalculator.Test.TestClass#selectInterestRate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">emicalculator.Test.TestClass#selectLoanType</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">emicalculator.Test.TestClass#selectTenure</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">emicalculator.Test.TestClass#selectamount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">emicalculator.Test.TestClass#writeDataInExcel</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">emicalculator.Test.NegativeTestClass#selectInterestRate_NegativeTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [0] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at emicalculator.Test.NegativeTestClass.selectInterestRate_NegativeTest(NegativeTestClass.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">emicalculator.Test.NegativeTestClass#getTitle_NegativeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">emicalculator.Test.NegativeTestClass#screenshot_NegativeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">emicalculator.Test.NegativeTestClass#selectLoanType_NegativeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">emicalculator.Test.NegativeTestClass#selectTenure_NegativeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">emicalculator.Test.NegativeTestClass#selectamount_NegativeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">emicalculator.Test.NegativeTestClass#verifybutton_NegativeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse-1430017123\testng-customsuite.xml</span>
+                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse--1192893014\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.NegativeTestClass" hash-for-method="selectInterestRate_NegativeTest">selectInterestRate_NegativeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,42 +116,32 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.TestClass" hash-for-method="expand">expand</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.NegativeTestClass" hash-for-method="getTitle_NegativeTest">getTitle_NegativeTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.TestClass" hash-for-method="getTitle">getTitle</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.NegativeTestClass" hash-for-method="screenshot_NegativeTest">screenshot_NegativeTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.TestClass" hash-for-method="screenshot">screenshot</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.NegativeTestClass" hash-for-method="selectLoanType_NegativeTest">selectLoanType_NegativeTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.TestClass" hash-for-method="selectInterestRate">selectInterestRate</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.NegativeTestClass" hash-for-method="selectTenure_NegativeTest">selectTenure_NegativeTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.TestClass" hash-for-method="selectLoanType">selectLoanType</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.NegativeTestClass" hash-for-method="selectamount_NegativeTest">selectamount_NegativeTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.TestClass" hash-for-method="selectTenure">selectTenure</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.TestClass" hash-for-method="selectamount">selectamount</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.TestClass" hash-for-method="writeDataInExcel">writeDataInExcel</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="emicalculator.Test.NegativeTestClass" hash-for-method="verifybutton_NegativeTest">verifybutton_NegativeTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -152,82 +156,105 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">emicalculator.Test.TestClass</span>
+              <img src="failed.png"/>
+              <span class="class-name">emicalculator.Test.NegativeTestClass</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="expand">
-                  </a> <!-- expand -->
-                  <span class="method-name">expand</span>
-                  <em>
-(Click on the expand button)                  </em>
+                  <a name="selectInterestRate_NegativeTest">
+                  </a> <!-- selectInterestRate_NegativeTest -->
+                  <span class="method-name">selectInterestRate_NegativeTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [0] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at emicalculator.Test.NegativeTestClass.selectInterestRate_NegativeTest(NegativeTestClass.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">emicalculator.Test.NegativeTestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTitle_NegativeTest">
+                  </a> <!-- getTitle_NegativeTest -->
+                  <span class="method-name">getTitle_NegativeTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="getTitle">
-                  </a> <!-- getTitle -->
-                  <span class="method-name">getTitle</span>
-                  <em>
-(verifying title of the webpage page)                  </em>
+                  <a name="screenshot_NegativeTest">
+                  </a> <!-- screenshot_NegativeTest -->
+                  <span class="method-name">screenshot_NegativeTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="screenshot">
-                  </a> <!-- screenshot -->
-                  <span class="method-name">screenshot</span>
-                  <em>
-(To take the screenshot)                  </em>
+                  <a name="selectLoanType_NegativeTest">
+                  </a> <!-- selectLoanType_NegativeTest -->
+                  <span class="method-name">selectLoanType_NegativeTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="selectInterestRate">
-                  </a> <!-- selectInterestRate -->
-                  <span class="method-name">selectInterestRate</span>
-                  <em>
-(Enter the rate of interest)                  </em>
+                  <a name="selectTenure_NegativeTest">
+                  </a> <!-- selectTenure_NegativeTest -->
+                  <span class="method-name">selectTenure_NegativeTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="selectLoanType">
-                  </a> <!-- selectLoanType -->
-                  <span class="method-name">selectLoanType</span>
-                  <em>
-(Select the type of loan)                  </em>
+                  <a name="selectamount_NegativeTest">
+                  </a> <!-- selectamount_NegativeTest -->
+                  <span class="method-name">selectamount_NegativeTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="selectTenure">
-                  </a> <!-- selectTenure -->
-                  <span class="method-name">selectTenure</span>
-                  <em>
-(Enter the time period)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectamount">
-                  </a> <!-- selectamount -->
-                  <span class="method-name">selectamount</span>
-                  <em>
-(Enter the car loan amount)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="writeDataInExcel">
-                  </a> <!-- writeDataInExcel -->
-                  <span class="method-name">writeDataInExcel</span>
-                  <em>
-(To write the final values in excel sheet)                  </em>
+                  <a name="verifybutton_NegativeTest">
+                  </a> <!-- verifybutton_NegativeTest -->
+                  <span class="method-name">verifybutton_NegativeTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -235,7 +262,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse-1430017123\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse--1192893014\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -244,7 +271,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;emicalculator.Test.TestClass&quot;/&gt;
+      &lt;class name=&quot;emicalculator.Test.NegativeTestClass&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -284,44 +311,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'selectamount')
-data.setCell(0, 2, 'emicalculator.Test.TestClass')
-data.setCell(0, 3, 9159);
+data.setCell(0, 1, 'selectamount_NegativeTest')
+data.setCell(0, 2, 'emicalculator.Test.NegativeTestClass')
+data.setCell(0, 3, 5053);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'selectInterestRate')
-data.setCell(1, 2, 'emicalculator.Test.TestClass')
-data.setCell(1, 3, 3687);
+data.setCell(1, 1, 'selectInterestRate_NegativeTest')
+data.setCell(1, 2, 'emicalculator.Test.NegativeTestClass')
+data.setCell(1, 3, 3504);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'selectLoanType')
-data.setCell(2, 2, 'emicalculator.Test.TestClass')
-data.setCell(2, 3, 3469);
+data.setCell(2, 1, 'selectTenure_NegativeTest')
+data.setCell(2, 2, 'emicalculator.Test.NegativeTestClass')
+data.setCell(2, 3, 3334);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'selectTenure')
-data.setCell(3, 2, 'emicalculator.Test.TestClass')
-data.setCell(3, 3, 3376);
+data.setCell(3, 1, 'selectLoanType_NegativeTest')
+data.setCell(3, 2, 'emicalculator.Test.NegativeTestClass')
+data.setCell(3, 3, 3166);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'expand')
-data.setCell(4, 2, 'emicalculator.Test.TestClass')
-data.setCell(4, 3, 3119);
+data.setCell(4, 1, 'getTitle_NegativeTest')
+data.setCell(4, 2, 'emicalculator.Test.NegativeTestClass')
+data.setCell(4, 3, 500);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'writeDataInExcel')
-data.setCell(5, 2, 'emicalculator.Test.TestClass')
-data.setCell(5, 3, 960);
+data.setCell(5, 1, 'screenshot_NegativeTest')
+data.setCell(5, 2, 'emicalculator.Test.NegativeTestClass')
+data.setCell(5, 3, 437);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'getTitle')
-data.setCell(6, 2, 'emicalculator.Test.TestClass')
-data.setCell(6, 3, 804);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'screenshot')
-data.setCell(7, 2, 'emicalculator.Test.TestClass')
-data.setCell(7, 3, 506);
+data.setCell(6, 1, 'verifybutton_NegativeTest')
+data.setCell(6, 2, 'emicalculator.Test.NegativeTestClass')
+data.setCell(6, 3, 87);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -347,55 +370,73 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">emicalculator.Test.TestClass</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">getDriver</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
+              <div class="chronological-class-name">emicalculator.Test.NegativeTestClass</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">21941 ms</span>
+                <span class="method-name">setup_NegativeTest</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">objectRef</span>
-                <span class="method-start">23682 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">getTitle</span>
-                <span class="method-start">24146 ms</span>
+                <span class="method-name">getTitle_NegativeTest</span>
+                <span class="method-start">11417 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flush([TestResult name=getTitle_NegativeTest status=SUCCESS method=NegativeTestClass.getTitle_NegativeTest...)</span>
+                <span class="method-start">12496 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">selectLoanType</span>
-                <span class="method-start">25265 ms</span>
+                <span class="method-name">verifybutton_NegativeTest</span>
+                <span class="method-start">13099 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flush([TestResult name=verifybutton_NegativeTest status=SUCCESS method=NegativeTestClass.verifybutton_Nega...)</span>
+                <span class="method-start">13194 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">selectamount</span>
-                <span class="method-start">28826 ms</span>
+                <span class="method-name">selectLoanType_NegativeTest</span>
+                <span class="method-start">13588 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flush([TestResult name=selectLoanType_NegativeTest status=SUCCESS method=NegativeTestClass.selectLoanType_...)</span>
+                <span class="method-start">16759 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">selectInterestRate</span>
-                <span class="method-start">38010 ms</span>
+                <span class="method-name">selectamount_NegativeTest</span>
+                <span class="method-start">16886 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flush([TestResult name=selectamount_NegativeTest status=SUCCESS method=NegativeTestClass.selectamount_Nega...)</span>
+                <span class="method-start">21947 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">selectTenure</span>
-                <span class="method-start">41705 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectInterestRate_NegativeTest</span>
+                <span class="method-start">22055 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flush([TestResult name=selectInterestRate_NegativeTest status=FAILURE method=NegativeTestClass.selectInter...)</span>
+                <span class="method-start">25570 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">expand</span>
-                <span class="method-start">45093 ms</span>
+                <span class="method-name">selectTenure_NegativeTest</span>
+                <span class="method-start">25635 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flush([TestResult name=selectTenure_NegativeTest status=SUCCESS method=NegativeTestClass.selectTenure_Nega...)</span>
+                <span class="method-start">28981 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">screenshot</span>
-                <span class="method-start">48224 ms</span>
+                <span class="method-name">screenshot_NegativeTest</span>
+                <span class="method-start">29028 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">writeDataInExcel</span>
-                <span class="method-start">48733 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-suite after">
-                <span class="method-name">closeDriver</span>
-                <span class="method-start">49824 ms</span>
-              </div> <!-- configuration-suite after -->
+              <div class="configuration-method after">
+                <span class="method-name">flush([TestResult name=screenshot_NegativeTest status=SUCCESS method=NegativeTestClass.screenshot_Negative...)</span>
+                <span class="method-start">29468 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver_NegativeTest</span>
+                <span class="method-start">29505 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

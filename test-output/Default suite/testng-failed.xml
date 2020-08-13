@@ -3,22 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="emicalculator.Test.TestClass">
+      <class name="emicalculator.Test.NegativeTestClass">
         <methods>
-          <include name="getDriver"/>
-          <include name="setup"/>
-          <include name="expand"/>
-          <include name="getTitle"/>
-          <include name="screenshot"/>
-          <include name="selectamount"/>
-          <include name="selectTenure"/>
-          <include name="objectRef"/>
-          <include name="selectInterestRate"/>
-          <include name="selectLoanType"/>
-          <include name="writeDataInExcel"/>
-          <include name="closeDriver"/>
+          <include name="flush"/>
+          <include name="selectInterestRate_NegativeTest"/>
+          <include name="closeDriver_NegativeTest"/>
+          <include name="setup_NegativeTest"/>
         </methods>
-      </class> <!-- emicalculator.Test.TestClass -->
+      </class> <!-- emicalculator.Test.NegativeTestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

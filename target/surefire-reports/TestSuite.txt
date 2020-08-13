@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.846 sec - in TestSuite
+Tests run: 20, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 68.931 sec <<< FAILURE! - in TestSuite
+selectInterestRate_NegativeTest(emicalculator.Test.NegativeTestClass)  Time elapsed: 3.919 sec  <<< FAILURE!
+java.lang.AssertionError: expected [0] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at emicalculator.Test.NegativeTestClass.selectInterestRate_NegativeTest(NegativeTestClass.java:112)
+
