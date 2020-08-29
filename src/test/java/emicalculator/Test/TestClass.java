@@ -9,6 +9,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import emicalculator.net.AutomateEmiCalculator;
 import emicalculator.net.DriverSetup;
 import emicalculatorExcel.ReadExcel;
+import io.qameta.allure.Attachment;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -17,6 +18,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
@@ -138,6 +141,8 @@ public class TestClass
 		String imagePath = emi.screenshot(driver);
 		Test.log(LogStatus.PASS, "Screenshot has been taken");
 		Test.log(LogStatus.PASS, Test.addScreenCapture(imagePath));
+		log.info("**********************Generating screenshot for allure report**********************");
+		saveScreenshot(driver);
 	}
 
 	@Test(priority = 7, description = "To write the final values in excel sheet", groups = "regression")
@@ -164,6 +169,12 @@ public class TestClass
 
 		extent.endTest(Test);
 		extent.flush();
+	}
+	
+	@Attachment()
+	public byte[] saveScreenshot(WebDriver driver)
+	{
+		return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
 	}
 
 	@AfterTest(alwaysRun = true) 

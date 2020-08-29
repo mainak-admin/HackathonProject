@@ -1,223 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="20" passed="19">
+<testng-results skipped="0" failed="1" ignored="0" total="21" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="Emi Calculator Test Automation Test Suite" duration-ms="26203" started-at="2020-08-12T20:29:06 IST" finished-at="2020-08-12T20:29:32 IST">
+  <suite name="Emi Calculator Test Automation Test Suite" duration-ms="29247" started-at="2020-08-29T13:02:18 IST" finished-at="2020-08-29T13:02:47 IST">
     <groups>
       <group name="regression">
-        <method signature="TestClass.expand()[pri:5, instance:emicalculator.Test.TestClass@89ff02e]" name="expand" class="emicalculator.Test.TestClass"/>
-        <method signature="TestClass.getTitle()[pri:0, instance:emicalculator.Test.TestClass@89ff02e]" name="getTitle" class="emicalculator.Test.TestClass"/>
-        <method signature="TestClass.screenshot()[pri:6, instance:emicalculator.Test.TestClass@89ff02e]" name="screenshot" class="emicalculator.Test.TestClass"/>
-        <method signature="TestClass.selectInterestRate()[pri:3, instance:emicalculator.Test.TestClass@89ff02e]" name="selectInterestRate" class="emicalculator.Test.TestClass"/>
-        <method signature="TestClass.selectLoanType()[pri:1, instance:emicalculator.Test.TestClass@89ff02e]" name="selectLoanType" class="emicalculator.Test.TestClass"/>
-        <method signature="TestClass.selectTenure()[pri:4, instance:emicalculator.Test.TestClass@89ff02e]" name="selectTenure" class="emicalculator.Test.TestClass"/>
-        <method signature="TestClass.selectamount()[pri:2, instance:emicalculator.Test.TestClass@89ff02e]" name="selectamount" class="emicalculator.Test.TestClass"/>
-        <method signature="TestClass.writeDataInExcel()[pri:7, instance:emicalculator.Test.TestClass@89ff02e]" name="writeDataInExcel" class="emicalculator.Test.TestClass"/>
+        <method signature="TestClass.expand()[pri:5, instance:emicalculator.Test.TestClass@578524c3]" name="expand" class="emicalculator.Test.TestClass"/>
+        <method signature="TestClass.getTitle()[pri:0, instance:emicalculator.Test.TestClass@578524c3]" name="getTitle" class="emicalculator.Test.TestClass"/>
+        <method signature="TestClass.screenshot()[pri:6, instance:emicalculator.Test.TestClass@578524c3]" name="screenshot" class="emicalculator.Test.TestClass"/>
+        <method signature="TestClass.selectInterestRate()[pri:3, instance:emicalculator.Test.TestClass@578524c3]" name="selectInterestRate" class="emicalculator.Test.TestClass"/>
+        <method signature="TestClass.selectLoanType()[pri:1, instance:emicalculator.Test.TestClass@578524c3]" name="selectLoanType" class="emicalculator.Test.TestClass"/>
+        <method signature="TestClass.selectTenure()[pri:4, instance:emicalculator.Test.TestClass@578524c3]" name="selectTenure" class="emicalculator.Test.TestClass"/>
+        <method signature="TestClass.selectamount()[pri:2, instance:emicalculator.Test.TestClass@578524c3]" name="selectamount" class="emicalculator.Test.TestClass"/>
+        <method signature="TestClass.writeDataInExcel()[pri:7, instance:emicalculator.Test.TestClass@578524c3]" name="writeDataInExcel" class="emicalculator.Test.TestClass"/>
       </group> <!-- regression -->
     </groups>
-    <test name="Test" duration-ms="26203" started-at="2020-08-12T20:29:06 IST" finished-at="2020-08-12T20:29:32 IST">
+    <test name="Test" duration-ms="29247" started-at="2020-08-29T13:02:18 IST" finished-at="2020-08-29T13:02:47 IST">
       <class name="emicalculator.Test.TestClass">
-        <test-method status="PASS" signature="setup()[pri:0, instance:emicalculator.Test.TestClass@89ff02e]" name="setup" is-config="true" duration-ms="5420" started-at="2020-08-12T20:29:06 IST" finished-at="2020-08-12T20:29:12 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:emicalculator.Test.TestClass@578524c3]" name="setup" is-config="true" duration-ms="7168" started-at="2020-08-29T13:02:18 IST" finished-at="2020-08-29T13:02:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getTitle()[pri:0, instance:emicalculator.Test.TestClass@89ff02e]" name="getTitle" duration-ms="99" started-at="2020-08-12T20:29:12 IST" description="Verifying title of the webpage page" finished-at="2020-08-12T20:29:12 IST">
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:emicalculator.Test.TestClass@578524c3]" name="getTitle" duration-ms="15" started-at="2020-08-29T13:02:25 IST" description="Verifying title of the webpage page" finished-at="2020-08-29T13:02:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@89ff02e]" name="flush" is-config="true" duration-ms="56" started-at="2020-08-12T20:29:12 IST" finished-at="2020-08-12T20:29:12 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@578524c3]" name="flush" is-config="true" duration-ms="41" started-at="2020-08-29T13:02:25 IST" finished-at="2020-08-29T13:02:25 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getTitle status=SUCCESS method=TestClass.getTitle()[pri:0, instance:emicalculator.Test.TestClass@89ff02e] output={null}]]]>
+                <![CDATA[[TestResult name=getTitle status=SUCCESS method=TestClass.getTitle()[pri:0, instance:emicalculator.Test.TestClass@578524c3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="selectLoanType()[pri:1, instance:emicalculator.Test.TestClass@89ff02e]" name="selectLoanType" duration-ms="3231" started-at="2020-08-12T20:29:12 IST" description="Select the type of loan" finished-at="2020-08-12T20:29:15 IST">
+        <test-method status="PASS" signature="selectLoanType()[pri:1, instance:emicalculator.Test.TestClass@578524c3]" name="selectLoanType" duration-ms="3123" started-at="2020-08-29T13:02:25 IST" description="Select the type of loan" finished-at="2020-08-29T13:02:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLoanType -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@89ff02e]" name="flush" is-config="true" duration-ms="43" started-at="2020-08-12T20:29:15 IST" finished-at="2020-08-12T20:29:15 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@578524c3]" name="flush" is-config="true" duration-ms="35" started-at="2020-08-29T13:02:28 IST" finished-at="2020-08-29T13:02:28 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectLoanType status=SUCCESS method=TestClass.selectLoanType()[pri:1, instance:emicalculator.Test.TestClass@89ff02e] output={null}]]]>
+                <![CDATA[[TestResult name=selectLoanType status=SUCCESS method=TestClass.selectLoanType()[pri:1, instance:emicalculator.Test.TestClass@578524c3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="selectamount()[pri:2, instance:emicalculator.Test.TestClass@89ff02e]" name="selectamount" duration-ms="5351" started-at="2020-08-12T20:29:15 IST" description="Enter the car loan amount" finished-at="2020-08-12T20:29:20 IST">
+        <test-method status="PASS" signature="selectamount()[pri:2, instance:emicalculator.Test.TestClass@578524c3]" name="selectamount" duration-ms="5845" started-at="2020-08-29T13:02:28 IST" description="Enter the car loan amount" finished-at="2020-08-29T13:02:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectamount -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@89ff02e]" name="flush" is-config="true" duration-ms="60" started-at="2020-08-12T20:29:20 IST" finished-at="2020-08-12T20:29:20 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@578524c3]" name="flush" is-config="true" duration-ms="70" started-at="2020-08-29T13:02:34 IST" finished-at="2020-08-29T13:02:34 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectamount status=SUCCESS method=TestClass.selectamount()[pri:2, instance:emicalculator.Test.TestClass@89ff02e] output={null}]]]>
+                <![CDATA[[TestResult name=selectamount status=SUCCESS method=TestClass.selectamount()[pri:2, instance:emicalculator.Test.TestClass@578524c3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="selectInterestRate()[pri:3, instance:emicalculator.Test.TestClass@89ff02e]" name="selectInterestRate" duration-ms="3440" started-at="2020-08-12T20:29:20 IST" description="Enter the rate of interest" finished-at="2020-08-12T20:29:24 IST">
+        <test-method status="PASS" signature="selectInterestRate()[pri:3, instance:emicalculator.Test.TestClass@578524c3]" name="selectInterestRate" duration-ms="3389" started-at="2020-08-29T13:02:34 IST" description="Enter the rate of interest" finished-at="2020-08-29T13:02:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectInterestRate -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@89ff02e]" name="flush" is-config="true" duration-ms="43" started-at="2020-08-12T20:29:24 IST" finished-at="2020-08-12T20:29:24 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@578524c3]" name="flush" is-config="true" duration-ms="27" started-at="2020-08-29T13:02:37 IST" finished-at="2020-08-29T13:02:37 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectInterestRate status=SUCCESS method=TestClass.selectInterestRate()[pri:3, instance:emicalculator.Test.TestClass@89ff02e] output={null}]]]>
+                <![CDATA[[TestResult name=selectInterestRate status=SUCCESS method=TestClass.selectInterestRate()[pri:3, instance:emicalculator.Test.TestClass@578524c3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="selectTenure()[pri:4, instance:emicalculator.Test.TestClass@89ff02e]" name="selectTenure" duration-ms="3394" started-at="2020-08-12T20:29:24 IST" description="Enter the time period" finished-at="2020-08-12T20:29:27 IST">
+        <test-method status="PASS" signature="selectTenure()[pri:4, instance:emicalculator.Test.TestClass@578524c3]" name="selectTenure" duration-ms="3427" started-at="2020-08-29T13:02:37 IST" description="Enter the time period" finished-at="2020-08-29T13:02:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectTenure -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@89ff02e]" name="flush" is-config="true" duration-ms="31" started-at="2020-08-12T20:29:27 IST" finished-at="2020-08-12T20:29:27 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@578524c3]" name="flush" is-config="true" duration-ms="27" started-at="2020-08-29T13:02:41 IST" finished-at="2020-08-29T13:02:41 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectTenure status=SUCCESS method=TestClass.selectTenure()[pri:4, instance:emicalculator.Test.TestClass@89ff02e] output={null}]]]>
+                <![CDATA[[TestResult name=selectTenure status=SUCCESS method=TestClass.selectTenure()[pri:4, instance:emicalculator.Test.TestClass@578524c3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="expand()[pri:5, instance:emicalculator.Test.TestClass@89ff02e]" name="expand" duration-ms="3131" started-at="2020-08-12T20:29:27 IST" description="Click on the expand button" finished-at="2020-08-12T20:29:31 IST">
+        <test-method status="PASS" signature="expand()[pri:5, instance:emicalculator.Test.TestClass@578524c3]" name="expand" duration-ms="3102" started-at="2020-08-29T13:02:41 IST" description="Click on the expand button" finished-at="2020-08-29T13:02:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- expand -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@89ff02e]" name="flush" is-config="true" duration-ms="46" started-at="2020-08-12T20:29:31 IST" finished-at="2020-08-12T20:29:31 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@578524c3]" name="flush" is-config="true" duration-ms="36" started-at="2020-08-29T13:02:44 IST" finished-at="2020-08-29T13:02:44 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=expand status=SUCCESS method=TestClass.expand()[pri:5, instance:emicalculator.Test.TestClass@89ff02e] output={null}]]]>
+                <![CDATA[[TestResult name=expand status=SUCCESS method=TestClass.expand()[pri:5, instance:emicalculator.Test.TestClass@578524c3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="screenshot()[pri:6, instance:emicalculator.Test.TestClass@89ff02e]" name="screenshot" duration-ms="377" started-at="2020-08-12T20:29:31 IST" description="To take the screenshot" finished-at="2020-08-12T20:29:31 IST">
+        <test-method status="PASS" signature="screenshot()[pri:6, instance:emicalculator.Test.TestClass@578524c3]" name="screenshot" duration-ms="813" started-at="2020-08-29T13:02:44 IST" description="To take the screenshot" finished-at="2020-08-29T13:02:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshot -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@89ff02e]" name="flush" is-config="true" duration-ms="32" started-at="2020-08-12T20:29:31 IST" finished-at="2020-08-12T20:29:31 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@578524c3]" name="flush" is-config="true" duration-ms="26" started-at="2020-08-29T13:02:45 IST" finished-at="2020-08-29T13:02:45 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=screenshot status=SUCCESS method=TestClass.screenshot()[pri:6, instance:emicalculator.Test.TestClass@89ff02e] output={null}]]]>
+                <![CDATA[[TestResult name=screenshot status=SUCCESS method=TestClass.screenshot()[pri:6, instance:emicalculator.Test.TestClass@578524c3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="writeDataInExcel()[pri:7, instance:emicalculator.Test.TestClass@89ff02e]" name="writeDataInExcel" duration-ms="444" started-at="2020-08-12T20:29:31 IST" description="To write the final values in excel sheet" finished-at="2020-08-12T20:29:31 IST">
+        <test-method status="PASS" signature="writeDataInExcel()[pri:7, instance:emicalculator.Test.TestClass@578524c3]" name="writeDataInExcel" duration-ms="1271" started-at="2020-08-29T13:02:45 IST" description="To write the final values in excel sheet" finished-at="2020-08-29T13:02:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeDataInExcel -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@89ff02e]" name="flush" is-config="true" duration-ms="47" started-at="2020-08-12T20:29:31 IST" finished-at="2020-08-12T20:29:32 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.TestClass@578524c3]" name="flush" is-config="true" duration-ms="32" started-at="2020-08-29T13:02:46 IST" finished-at="2020-08-29T13:02:46 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=writeDataInExcel status=SUCCESS method=TestClass.writeDataInExcel()[pri:7, instance:emicalculator.Test.TestClass@89ff02e] output={null}]]]>
+                <![CDATA[[TestResult name=writeDataInExcel status=SUCCESS method=TestClass.writeDataInExcel()[pri:7, instance:emicalculator.Test.TestClass@578524c3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:emicalculator.Test.TestClass@89ff02e]" name="closeDriver" is-config="true" duration-ms="895" started-at="2020-08-12T20:29:32 IST" finished-at="2020-08-12T20:29:32 IST">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:emicalculator.Test.TestClass@578524c3]" name="closeDriver" is-config="true" duration-ms="752" started-at="2020-08-29T13:02:46 IST" finished-at="2020-08-29T13:02:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- emicalculator.Test.TestClass -->
     </test> <!-- Test -->
   </suite> <!-- Emi Calculator Test Automation Test Suite -->
-  <suite name="Emi Calculator Test Automation Negative Test Suite" duration-ms="25211" started-at="2020-08-12T20:29:32 IST" finished-at="2020-08-12T20:29:58 IST">
+  <suite name="Emi Calculator Test Automation Negative Test Suite" duration-ms="25361" started-at="2020-08-29T13:02:47 IST" finished-at="2020-08-29T13:03:12 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="25211" started-at="2020-08-12T20:29:32 IST" finished-at="2020-08-12T20:29:58 IST">
+    <test name="Test" duration-ms="25361" started-at="2020-08-29T13:02:47 IST" finished-at="2020-08-29T13:03:12 IST">
       <class name="emicalculator.Test.NegativeTestClass">
-        <test-method status="PASS" signature="setup_NegativeTest()[pri:0, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="setup_NegativeTest" is-config="true" duration-ms="6362" started-at="2020-08-12T20:29:32 IST" finished-at="2020-08-12T20:29:39 IST">
+        <test-method status="PASS" signature="setup_NegativeTest()[pri:0, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="setup_NegativeTest" is-config="true" duration-ms="6470" started-at="2020-08-29T13:02:47 IST" finished-at="2020-08-29T13:02:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup_NegativeTest -->
-        <test-method status="PASS" signature="getTitle_NegativeTest()[pri:0, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="getTitle_NegativeTest" duration-ms="480" started-at="2020-08-12T20:29:39 IST" finished-at="2020-08-12T20:29:39 IST">
+        <test-method status="PASS" signature="getTitle_NegativeTest()[pri:0, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="getTitle_NegativeTest" duration-ms="103" started-at="2020-08-29T13:02:53 IST" finished-at="2020-08-29T13:02:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle_NegativeTest -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="flush" is-config="true" duration-ms="36" started-at="2020-08-12T20:29:39 IST" finished-at="2020-08-12T20:29:39 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="flush" is-config="true" duration-ms="34" started-at="2020-08-29T13:02:53 IST" finished-at="2020-08-29T13:02:53 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getTitle_NegativeTest status=SUCCESS method=NegativeTestClass.getTitle_NegativeTest()[pri:0, instance:emicalculator.Test.NegativeTestClass@5f59185e] output={null}]]]>
+                <![CDATA[[TestResult name=getTitle_NegativeTest status=SUCCESS method=NegativeTestClass.getTitle_NegativeTest()[pri:0, instance:emicalculator.Test.NegativeTestClass@3f093abe] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="verifybutton_NegativeTest()[pri:1, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="verifybutton_NegativeTest" duration-ms="83" started-at="2020-08-12T20:29:39 IST" finished-at="2020-08-12T20:29:39 IST">
+        <test-method status="PASS" signature="verifybutton_NegativeTest()[pri:1, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="verifybutton_NegativeTest" duration-ms="59" started-at="2020-08-29T13:02:53 IST" finished-at="2020-08-29T13:02:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifybutton_NegativeTest -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="flush" is-config="true" duration-ms="40" started-at="2020-08-12T20:29:39 IST" finished-at="2020-08-12T20:29:39 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="flush" is-config="true" duration-ms="37" started-at="2020-08-29T13:02:53 IST" finished-at="2020-08-29T13:02:53 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifybutton_NegativeTest status=SUCCESS method=NegativeTestClass.verifybutton_NegativeTest()[pri:1, instance:emicalculator.Test.NegativeTestClass@5f59185e] output={null}]]]>
+                <![CDATA[[TestResult name=verifybutton_NegativeTest status=SUCCESS method=NegativeTestClass.verifybutton_NegativeTest()[pri:1, instance:emicalculator.Test.NegativeTestClass@3f093abe] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="selectLoanType_NegativeTest()[pri:2, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="selectLoanType_NegativeTest" duration-ms="3175" started-at="2020-08-12T20:29:39 IST" finished-at="2020-08-12T20:29:43 IST">
+        <test-method status="PASS" signature="selectLoanType_NegativeTest()[pri:2, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="selectLoanType_NegativeTest" duration-ms="3268" started-at="2020-08-29T13:02:53 IST" finished-at="2020-08-29T13:02:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLoanType_NegativeTest -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="flush" is-config="true" duration-ms="34" started-at="2020-08-12T20:29:43 IST" finished-at="2020-08-12T20:29:43 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="flush" is-config="true" duration-ms="33" started-at="2020-08-29T13:02:57 IST" finished-at="2020-08-29T13:02:57 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectLoanType_NegativeTest status=SUCCESS method=NegativeTestClass.selectLoanType_NegativeTest()[pri:2, instance:emicalculator.Test.NegativeTestClass@5f59185e] output={null}]]]>
+                <![CDATA[[TestResult name=selectLoanType_NegativeTest status=SUCCESS method=NegativeTestClass.selectLoanType_NegativeTest()[pri:2, instance:emicalculator.Test.NegativeTestClass@3f093abe] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="selectamount_NegativeTest()[pri:3, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="selectamount_NegativeTest" duration-ms="3293" started-at="2020-08-12T20:29:43 IST" finished-at="2020-08-12T20:29:46 IST">
+        <test-method status="PASS" signature="selectamount_NegativeTest()[pri:3, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="selectamount_NegativeTest" duration-ms="3249" started-at="2020-08-29T13:02:57 IST" finished-at="2020-08-29T13:03:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectamount_NegativeTest -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="flush" is-config="true" duration-ms="40" started-at="2020-08-12T20:29:46 IST" finished-at="2020-08-12T20:29:46 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="flush" is-config="true" duration-ms="50" started-at="2020-08-29T13:03:00 IST" finished-at="2020-08-29T13:03:00 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectamount_NegativeTest status=SUCCESS method=NegativeTestClass.selectamount_NegativeTest()[pri:3, instance:emicalculator.Test.NegativeTestClass@5f59185e] output={null}]]]>
+                <![CDATA[[TestResult name=selectamount_NegativeTest status=SUCCESS method=NegativeTestClass.selectamount_NegativeTest()[pri:3, instance:emicalculator.Test.NegativeTestClass@3f093abe] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="FAIL" signature="selectInterestRate_NegativeTest()[pri:4, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="selectInterestRate_NegativeTest" duration-ms="3913" started-at="2020-08-12T20:29:46 IST" finished-at="2020-08-12T20:29:50 IST">
+        <test-method status="FAIL" signature="selectInterestRate_NegativeTest()[pri:4, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="selectInterestRate_NegativeTest" duration-ms="3613" started-at="2020-08-29T13:03:00 IST" finished-at="2020-08-29T13:03:04 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [0] but found [null]]]>
@@ -230,7 +230,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at emicalculator.Test.NegativeTestClass.selectInterestRate_NegativeTest(NegativeTestClass.java:112)
+at emicalculator.Test.NegativeTestClass.selectInterestRate_NegativeTest(NegativeTestClass.java:115)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -268,146 +268,162 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectInterestRate_NegativeTest -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="flush" is-config="true" duration-ms="3131" started-at="2020-08-12T20:29:50 IST" finished-at="2020-08-12T20:29:53 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="flush" is-config="true" duration-ms="3094" started-at="2020-08-29T13:03:04 IST" finished-at="2020-08-29T13:03:07 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectInterestRate_NegativeTest status=FAILURE method=NegativeTestClass.selectInterestRate_NegativeTest()[pri:4, instance:emicalculator.Test.NegativeTestClass@5f59185e] output={null}]]]>
+                <![CDATA[[TestResult name=selectInterestRate_NegativeTest status=FAILURE method=NegativeTestClass.selectInterestRate_NegativeTest()[pri:4, instance:emicalculator.Test.NegativeTestClass@3f093abe] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="selectTenure_NegativeTest()[pri:5, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="selectTenure_NegativeTest" duration-ms="3336" started-at="2020-08-12T20:29:53 IST" finished-at="2020-08-12T20:29:56 IST">
+        <test-method status="PASS" signature="selectTenure_NegativeTest()[pri:5, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="selectTenure_NegativeTest" duration-ms="3340" started-at="2020-08-29T13:03:07 IST" finished-at="2020-08-29T13:03:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectTenure_NegativeTest -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="flush" is-config="true" duration-ms="48" started-at="2020-08-12T20:29:56 IST" finished-at="2020-08-12T20:29:56 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="flush" is-config="true" duration-ms="73" started-at="2020-08-29T13:03:10 IST" finished-at="2020-08-29T13:03:10 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectTenure_NegativeTest status=SUCCESS method=NegativeTestClass.selectTenure_NegativeTest()[pri:5, instance:emicalculator.Test.NegativeTestClass@5f59185e] output={null}]]]>
+                <![CDATA[[TestResult name=selectTenure_NegativeTest status=SUCCESS method=NegativeTestClass.selectTenure_NegativeTest()[pri:5, instance:emicalculator.Test.NegativeTestClass@3f093abe] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="screenshot_NegativeTest()[pri:6, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="screenshot_NegativeTest" duration-ms="409" started-at="2020-08-12T20:29:56 IST" finished-at="2020-08-12T20:29:57 IST">
+        <test-method status="PASS" signature="screenshot_NegativeTest()[pri:6, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="screenshot_NegativeTest" duration-ms="983" started-at="2020-08-29T13:03:10 IST" finished-at="2020-08-29T13:03:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshot_NegativeTest -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="flush" is-config="true" duration-ms="35" started-at="2020-08-12T20:29:57 IST" finished-at="2020-08-12T20:29:57 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="flush" is-config="true" duration-ms="23" started-at="2020-08-29T13:03:11 IST" finished-at="2020-08-29T13:03:11 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=screenshot_NegativeTest status=SUCCESS method=NegativeTestClass.screenshot_NegativeTest()[pri:6, instance:emicalculator.Test.NegativeTestClass@5f59185e] output={null}]]]>
+                <![CDATA[[TestResult name=screenshot_NegativeTest status=SUCCESS method=NegativeTestClass.screenshot_NegativeTest()[pri:6, instance:emicalculator.Test.NegativeTestClass@3f093abe] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="closeDriver_NegativeTest()[pri:0, instance:emicalculator.Test.NegativeTestClass@5f59185e]" name="closeDriver_NegativeTest" is-config="true" duration-ms="758" started-at="2020-08-12T20:29:57 IST" finished-at="2020-08-12T20:29:58 IST">
+        <test-method status="PASS" signature="closeDriver_NegativeTest()[pri:0, instance:emicalculator.Test.NegativeTestClass@3f093abe]" name="closeDriver_NegativeTest" is-config="true" duration-ms="882" started-at="2020-08-29T13:03:11 IST" finished-at="2020-08-29T13:03:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver_NegativeTest -->
       </class> <!-- emicalculator.Test.NegativeTestClass -->
     </test> <!-- Test -->
   </suite> <!-- Emi Calculator Test Automation Negative Test Suite -->
-  <suite name="Emi Calculator Test Automation Suite for Smoke Testing" duration-ms="15032" started-at="2020-08-12T20:28:51 IST" finished-at="2020-08-12T20:29:06 IST">
+  <suite name="Emi Calculator Test Automation Suite for Smoke Testing" duration-ms="35904" started-at="2020-08-29T13:01:42 IST" finished-at="2020-08-29T13:02:17 IST">
     <groups>
       <group name="smoke">
-        <method signature="SmokeTest.getTitle_smokeTesting()[pri:0, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="getTitle_smokeTesting" class="emicalculator.Test.SmokeTest"/>
-        <method signature="SmokeTest.verifyInterestRate_smokeTesting()[pri:3, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="verifyInterestRate_smokeTesting" class="emicalculator.Test.SmokeTest"/>
-        <method signature="SmokeTest.verifySelectamount_smokeTesting()[pri:2, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="verifySelectamount_smokeTesting" class="emicalculator.Test.SmokeTest"/>
-        <method signature="SmokeTest.verifyTenure_smokeTesting()[pri:4, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="verifyTenure_smokeTesting" class="emicalculator.Test.SmokeTest"/>
-        <method signature="SmokeTest.verifybutton_smokeTesting()[pri:1, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="verifybutton_smokeTesting" class="emicalculator.Test.SmokeTest"/>
+        <method signature="SmokeTest.getTitle_smokeTesting()[pri:0, instance:emicalculator.Test.SmokeTest@11dee337]" name="getTitle_smokeTesting" class="emicalculator.Test.SmokeTest"/>
+        <method signature="SmokeTest.selectLoanType()[pri:2, instance:emicalculator.Test.SmokeTest@11dee337]" name="selectLoanType" class="emicalculator.Test.SmokeTest"/>
+        <method signature="SmokeTest.verifyInterestRate_smokeTesting()[pri:4, instance:emicalculator.Test.SmokeTest@11dee337]" name="verifyInterestRate_smokeTesting" class="emicalculator.Test.SmokeTest"/>
+        <method signature="SmokeTest.verifySelectamount_smokeTesting()[pri:3, instance:emicalculator.Test.SmokeTest@11dee337]" name="verifySelectamount_smokeTesting" class="emicalculator.Test.SmokeTest"/>
+        <method signature="SmokeTest.verifyTenure_smokeTesting()[pri:5, instance:emicalculator.Test.SmokeTest@11dee337]" name="verifyTenure_smokeTesting" class="emicalculator.Test.SmokeTest"/>
+        <method signature="SmokeTest.verifybutton_smokeTesting()[pri:1, instance:emicalculator.Test.SmokeTest@11dee337]" name="verifybutton_smokeTesting" class="emicalculator.Test.SmokeTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="15032" started-at="2020-08-12T20:28:51 IST" finished-at="2020-08-12T20:29:06 IST">
+    <test name="Test" duration-ms="35904" started-at="2020-08-29T13:01:42 IST" finished-at="2020-08-29T13:02:17 IST">
       <class name="emicalculator.Test.SmokeTest">
-        <test-method status="PASS" signature="setup_smokeTesting()[pri:0, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="setup_smokeTesting" is-config="true" duration-ms="10978" started-at="2020-08-12T20:28:51 IST" finished-at="2020-08-12T20:29:02 IST">
+        <test-method status="PASS" signature="setup_smokeTesting()[pri:0, instance:emicalculator.Test.SmokeTest@11dee337]" name="setup_smokeTesting" is-config="true" duration-ms="25304" started-at="2020-08-29T13:01:42 IST" finished-at="2020-08-29T13:02:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup_smokeTesting -->
-        <test-method status="PASS" signature="getTitle_smokeTesting()[pri:0, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="getTitle_smokeTesting" duration-ms="505" started-at="2020-08-12T20:29:02 IST" description="Verifying title of the webpage page" finished-at="2020-08-12T20:29:03 IST">
+        <test-method status="PASS" signature="getTitle_smokeTesting()[pri:0, instance:emicalculator.Test.SmokeTest@11dee337]" name="getTitle_smokeTesting" duration-ms="575" started-at="2020-08-29T13:02:07 IST" description="Verifying title of the webpage page" finished-at="2020-08-29T13:02:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle_smokeTesting -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="flush" is-config="true" duration-ms="788" started-at="2020-08-12T20:29:03 IST" finished-at="2020-08-12T20:29:04 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.SmokeTest@11dee337]" name="flush" is-config="true" duration-ms="4416" started-at="2020-08-29T13:02:08 IST" finished-at="2020-08-29T13:02:13 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getTitle_smokeTesting status=SUCCESS method=SmokeTest.getTitle_smokeTesting()[pri:0, instance:emicalculator.Test.SmokeTest@4fad94a7] output={null}]]]>
+                <![CDATA[[TestResult name=getTitle_smokeTesting status=SUCCESS method=SmokeTest.getTitle_smokeTesting()[pri:0, instance:emicalculator.Test.SmokeTest@11dee337] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="verifybutton_smokeTesting()[pri:1, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="verifybutton_smokeTesting" duration-ms="634" started-at="2020-08-12T20:29:04 IST" description="Verify car loan button" finished-at="2020-08-12T20:29:04 IST">
+        <test-method status="PASS" signature="verifybutton_smokeTesting()[pri:1, instance:emicalculator.Test.SmokeTest@11dee337]" name="verifybutton_smokeTesting" duration-ms="419" started-at="2020-08-29T13:02:13 IST" description="Verify car loan button" finished-at="2020-08-29T13:02:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifybutton_smokeTesting -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="flush" is-config="true" duration-ms="72" started-at="2020-08-12T20:29:04 IST" finished-at="2020-08-12T20:29:04 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.SmokeTest@11dee337]" name="flush" is-config="true" duration-ms="66" started-at="2020-08-29T13:02:13 IST" finished-at="2020-08-29T13:02:13 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifybutton_smokeTesting status=SUCCESS method=SmokeTest.verifybutton_smokeTesting()[pri:1, instance:emicalculator.Test.SmokeTest@4fad94a7] output={null}]]]>
+                <![CDATA[[TestResult name=verifybutton_smokeTesting status=SUCCESS method=SmokeTest.verifybutton_smokeTesting()[pri:1, instance:emicalculator.Test.SmokeTest@11dee337] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="verifySelectamount_smokeTesting()[pri:2, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="verifySelectamount_smokeTesting" duration-ms="197" started-at="2020-08-12T20:29:04 IST" description="Verify car loan amount tab" finished-at="2020-08-12T20:29:05 IST">
+        <test-method status="PASS" signature="selectLoanType()[pri:2, instance:emicalculator.Test.SmokeTest@11dee337]" name="selectLoanType" duration-ms="3203" started-at="2020-08-29T13:02:13 IST" description="Select the type of loan" finished-at="2020-08-29T13:02:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLoanType -->
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.SmokeTest@11dee337]" name="flush" is-config="true" duration-ms="77" started-at="2020-08-29T13:02:16 IST" finished-at="2020-08-29T13:02:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectLoanType status=SUCCESS method=SmokeTest.selectLoanType()[pri:2, instance:emicalculator.Test.SmokeTest@11dee337] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method status="PASS" signature="verifySelectamount_smokeTesting()[pri:3, instance:emicalculator.Test.SmokeTest@11dee337]" name="verifySelectamount_smokeTesting" duration-ms="60" started-at="2020-08-29T13:02:16 IST" description="Verify car loan amount tab" finished-at="2020-08-29T13:02:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySelectamount_smokeTesting -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="flush" is-config="true" duration-ms="70" started-at="2020-08-12T20:29:05 IST" finished-at="2020-08-12T20:29:05 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.SmokeTest@11dee337]" name="flush" is-config="true" duration-ms="49" started-at="2020-08-29T13:02:17 IST" finished-at="2020-08-29T13:02:17 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySelectamount_smokeTesting status=SUCCESS method=SmokeTest.verifySelectamount_smokeTesting()[pri:2, instance:emicalculator.Test.SmokeTest@4fad94a7] output={null}]]]>
+                <![CDATA[[TestResult name=verifySelectamount_smokeTesting status=SUCCESS method=SmokeTest.verifySelectamount_smokeTesting()[pri:3, instance:emicalculator.Test.SmokeTest@11dee337] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="verifyInterestRate_smokeTesting()[pri:3, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="verifyInterestRate_smokeTesting" duration-ms="166" started-at="2020-08-12T20:29:05 IST" description="Verify the rate of interest tab" finished-at="2020-08-12T20:29:05 IST">
+        <test-method status="PASS" signature="verifyInterestRate_smokeTesting()[pri:4, instance:emicalculator.Test.SmokeTest@11dee337]" name="verifyInterestRate_smokeTesting" duration-ms="63" started-at="2020-08-29T13:02:17 IST" description="Verify the rate of interest tab" finished-at="2020-08-29T13:02:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInterestRate_smokeTesting -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="flush" is-config="true" duration-ms="79" started-at="2020-08-12T20:29:05 IST" finished-at="2020-08-12T20:29:05 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.SmokeTest@11dee337]" name="flush" is-config="true" duration-ms="48" started-at="2020-08-29T13:02:17 IST" finished-at="2020-08-29T13:02:17 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyInterestRate_smokeTesting status=SUCCESS method=SmokeTest.verifyInterestRate_smokeTesting()[pri:3, instance:emicalculator.Test.SmokeTest@4fad94a7] output={null}]]]>
+                <![CDATA[[TestResult name=verifyInterestRate_smokeTesting status=SUCCESS method=SmokeTest.verifyInterestRate_smokeTesting()[pri:4, instance:emicalculator.Test.SmokeTest@11dee337] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="verifyTenure_smokeTesting()[pri:4, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="verifyTenure_smokeTesting" duration-ms="142" started-at="2020-08-12T20:29:05 IST" description="Verify the time period tab" finished-at="2020-08-12T20:29:05 IST">
+        <test-method status="PASS" signature="verifyTenure_smokeTesting()[pri:5, instance:emicalculator.Test.SmokeTest@11dee337]" name="verifyTenure_smokeTesting" duration-ms="52" started-at="2020-08-29T13:02:17 IST" description="Verify the time period tab" finished-at="2020-08-29T13:02:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTenure_smokeTesting -->
-        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="flush" is-config="true" duration-ms="83" started-at="2020-08-12T20:29:05 IST" finished-at="2020-08-12T20:29:05 IST">
+        <test-method status="PASS" signature="flush(org.testng.ITestResult)[pri:0, instance:emicalculator.Test.SmokeTest@11dee337]" name="flush" is-config="true" duration-ms="41" started-at="2020-08-29T13:02:17 IST" finished-at="2020-08-29T13:02:17 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTenure_smokeTesting status=SUCCESS method=SmokeTest.verifyTenure_smokeTesting()[pri:4, instance:emicalculator.Test.SmokeTest@4fad94a7] output={null}]]]>
+                <![CDATA[[TestResult name=verifyTenure_smokeTesting status=SUCCESS method=SmokeTest.verifyTenure_smokeTesting()[pri:5, instance:emicalculator.Test.SmokeTest@11dee337] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method status="PASS" signature="closeDriver_smokeTesting()[pri:0, instance:emicalculator.Test.SmokeTest@4fad94a7]" name="closeDriver_smokeTesting" is-config="true" duration-ms="947" started-at="2020-08-12T20:29:05 IST" finished-at="2020-08-12T20:29:06 IST">
+        <test-method status="PASS" signature="closeDriver_smokeTesting()[pri:0, instance:emicalculator.Test.SmokeTest@11dee337]" name="closeDriver_smokeTesting" is-config="true" duration-ms="668" started-at="2020-08-29T13:02:17 IST" finished-at="2020-08-29T13:02:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver_smokeTesting -->

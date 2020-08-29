@@ -72,8 +72,20 @@ public class SmokeTest
 		emi.checkLoanTab();
 		Test.log(LogStatus.PASS, "Car loan tab is verified");
 	}
+	
+	@Test(priority = 2, description = "Select the type of loan", groups = "smoke")
+	@Severity(SeverityLevel.CRITICAL)
+	@Description("Test Case Description: Select the type of loan --> Home/Personal/Car")
+	public void selectLoanType() throws Exception
+	{
+		Test = extent.startTest("Select car loan tab");
+		Test.log(LogStatus.INFO, "Regression test for car loan selection initiated");
+		log.info("**********************Car loan tab is selected**********************");
+		emi.selectCarLoan();
+		Test.log(LogStatus.PASS, "Car loan tab is selected");
+	}
 
-	@Test(priority = 2, description = "Verify car loan amount tab", groups = "smoke")
+	@Test(priority = 3, description = "Verify car loan amount tab", groups = "smoke")
 	@Severity(SeverityLevel.CRITICAL)
 	@Description("Test Case Description: To check whether car loan amount tab is enabled or not")
 	public void verifySelectamount_smokeTesting() throws Exception
@@ -87,7 +99,7 @@ public class SmokeTest
 		Test.log(LogStatus.PASS, "Loan amount tab is verified");
 	}
 
-	@Test(priority = 3, description = "Verify the rate of interest tab", groups = "smoke")
+	@Test(priority = 4, description = "Verify the rate of interest tab", groups = "smoke")
 	@Severity(SeverityLevel.CRITICAL)
 	@Description("Test Case Description: To check whether rate of interest tab is enabled or not")
 	public void verifyInterestRate_smokeTesting() throws Exception
@@ -101,7 +113,7 @@ public class SmokeTest
 		Test.log(LogStatus.PASS, "Rate of interest tab is verified");
 	}
 
-	@Test(priority = 4, description = "Verify the time period tab", groups = "smoke")
+	@Test(priority = 5, description = "Verify the time period tab", groups = "smoke")
 	@Severity(SeverityLevel.CRITICAL)
 	@Description("Test Case Description: To check whether the time period field is enabled or not")
 	public void verifyTenure_smokeTesting() throws Exception

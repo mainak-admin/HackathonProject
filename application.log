@@ -1,194 +1,202 @@
-2020-08-12 20:28:52,336 DEBUG [main] InternalLoggerFactory:53 - Using Log4J as the default logging framework
-2020-08-12 20:28:52,358 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
-2020-08-12 20:28:52,359 DEBUG [main] ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
-2020-08-12 20:28:52,542 DEBUG [main] ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@10ec523c
-2020-08-12 20:28:52,626 DEBUG [main] PlatformDependent:1015 - Platform: Windows
-2020-08-12 20:28:52,630 DEBUG [main] PlatformDependent0:408 - -Dio.netty.noUnsafe: false
-2020-08-12 20:28:52,631 DEBUG [main] PlatformDependent0:876 - Java version: 8
-2020-08-12 20:28:52,634 DEBUG [main] PlatformDependent0:125 - sun.misc.Unsafe.theUnsafe: available
-2020-08-12 20:28:52,636 DEBUG [main] PlatformDependent0:149 - sun.misc.Unsafe.copyMemory: available
-2020-08-12 20:28:52,638 DEBUG [main] PlatformDependent0:187 - java.nio.Buffer.address: available
-2020-08-12 20:28:52,639 DEBUG [main] PlatformDependent0:252 - direct buffer constructor: available
-2020-08-12 20:28:52,641 DEBUG [main] PlatformDependent0:326 - java.nio.Bits.unaligned: available, true
-2020-08-12 20:28:52,642 DEBUG [main] PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
-2020-08-12 20:28:52,642 DEBUG [main] PlatformDependent0:398 - java.nio.DirectByteBuffer.<init>(long, int): available
-2020-08-12 20:28:52,642 DEBUG [main] PlatformDependent:1058 - sun.misc.Unsafe: available
-2020-08-12 20:28:52,644 DEBUG [main] PlatformDependent:1177 - -Dio.netty.tmpdir: C:\Users\user\AppData\Local\Temp (java.io.tmpdir)
-2020-08-12 20:28:52,646 DEBUG [main] PlatformDependent:1256 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2020-08-12 20:28:52,649 DEBUG [main] PlatformDependent:177 - -Dio.netty.maxDirectMemory: 947388416 bytes
-2020-08-12 20:28:52,650 DEBUG [main] PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2020-08-12 20:28:52,653 DEBUG [main] CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
-2020-08-12 20:28:52,654 DEBUG [main] PlatformDependent:204 - -Dio.netty.noPreferDirect: false
-2020-08-12 20:28:52,709 DEBUG [main] PlatformDependent:919 - org.jctools-core.MpscChunkedArrayQueue: available
-2020-08-12 20:28:53,141 DEBUG [main] JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
-2020-08-12 20:28:53,142 DEBUG [main] JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
-2020-08-12 20:28:53,232 DEBUG [main] InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2020-08-12 20:28:53,233 DEBUG [main] InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2020-08-12 20:28:53,264 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
-2020-08-12 20:28:53,302 DEBUG [main] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
-2020-08-12 20:28:53,303 DEBUG [main] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
-2020-08-12 20:28:53,453 DEBUG [main] PooledByteBufAllocator:156 - -Dio.netty.allocator.numHeapArenas: 8
-2020-08-12 20:28:53,453 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numDirectArenas: 8
-2020-08-12 20:28:53,454 DEBUG [main] PooledByteBufAllocator:159 - -Dio.netty.allocator.pageSize: 8192
-2020-08-12 20:28:53,455 DEBUG [main] PooledByteBufAllocator:164 - -Dio.netty.allocator.maxOrder: 11
-2020-08-12 20:28:53,455 DEBUG [main] PooledByteBufAllocator:168 - -Dio.netty.allocator.chunkSize: 16777216
-2020-08-12 20:28:53,456 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.tinyCacheSize: 512
-2020-08-12 20:28:53,456 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
-2020-08-12 20:28:53,457 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
-2020-08-12 20:28:53,457 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2020-08-12 20:28:53,457 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
-2020-08-12 20:28:53,458 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2020-08-12 20:28:53,458 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: true
-2020-08-12 20:28:53,458 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2020-08-12 20:28:53,500 DEBUG [main] ByteBufUtil:86 - -Dio.netty.allocator.type: pooled
-2020-08-12 20:28:53,501 DEBUG [main] ByteBufUtil:95 - -Dio.netty.threadLocalDirectBufferSize: 0
-2020-08-12 20:28:53,501 DEBUG [main] ByteBufUtil:98 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2020-08-12 20:28:55,089 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 5988 (auto-detected)
-2020-08-12 20:28:55,095 DEBUG [Forwarding newSession on session null to remote] NetUtil:139 - -Djava.net.preferIPv4Stack: false
-2020-08-12 20:28:55,096 DEBUG [Forwarding newSession on session null to remote] NetUtil:140 - -Djava.net.preferIPv6Addresses: false
-2020-08-12 20:28:55,148 DEBUG [Forwarding newSession on session null to remote] NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2020-08-12 20:28:55,151 DEBUG [Forwarding newSession on session null to remote] NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2020-08-12 20:28:55,192 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: b4:2e:99:ff:fe:4f:57:98 (auto-detected)
-2020-08-12 20:28:55,366 DEBUG [AsyncHttpClient-3-1] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
-2020-08-12 20:28:55,366 DEBUG [AsyncHttpClient-3-1] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
-2020-08-12 20:28:55,366 DEBUG [AsyncHttpClient-3-1] ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@22321d4a
-2020-08-12 20:28:55,447 DEBUG [AsyncHttpClient-3-1] Recycler:97 - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2020-08-12 20:28:55,448 DEBUG [AsyncHttpClient-3-1] Recycler:98 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
-2020-08-12 20:28:55,448 DEBUG [AsyncHttpClient-3-1] Recycler:99 - -Dio.netty.recycler.linkCapacity: 16
-2020-08-12 20:28:55,448 DEBUG [AsyncHttpClient-3-1] Recycler:100 - -Dio.netty.recycler.ratio: 8
-2020-08-12 20:28:57,854 DEBUG [main] ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0xe341c58ee64c2fa8
-2020-08-12 20:29:01,228  INFO [main] SmokeTest:40 - *************** *******Logging into browser**********************
-2020-08-12 20:29:03,166  INFO [main] SmokeTest:55 - **********************Starting test cases**********************
-2020-08-12 20:29:03,168  INFO [main] SmokeTest:56 - **********************Fetching the page title for smoke testing**********************
-2020-08-12 20:29:03,185  INFO [main] SmokeTest:61 - **********************The webpage title is verified**********************
-2020-08-12 20:29:03,503 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:03,511 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:03,516 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:03,518 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:03,519 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:04,234  INFO [main] SmokeTest:71 - **********************Verifying car loan tab**********************
-2020-08-12 20:29:04,881 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:04,881 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:04,882 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:04,883 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:04,883 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:04,957  INFO [main] SmokeTest:83 - **********************Checking whether loan amount tab is enabled or not**********************
-2020-08-12 20:29:05,154 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:05,154 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:05,155 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:05,157 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:05,157 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:05,228  INFO [main] SmokeTest:97 - **********************Verifying rate of interest**********************
-2020-08-12 20:29:05,398 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:05,399 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:05,400 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:05,400 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:05,402 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:05,482  INFO [main] SmokeTest:111 - **********************Verifying the tenure tab**********************
-2020-08-12 20:29:05,625 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:05,626 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:05,627 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:05,630 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:05,631 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:05,708  INFO [main] SmokeTest:137 - **********************Closing browser**********************
-2020-08-12 20:29:10,471  INFO [main] TestClass:41 - *************** *******Logging into browser**********************
-2020-08-12 20:29:12,131  INFO [main] TestClass:56 - **********************Starting test cases**********************
-2020-08-12 20:29:12,131  INFO [main] TestClass:57 - **********************Fetching the page title**********************
-2020-08-12 20:29:12,223 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:12,224 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:12,226 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:12,226 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:12,227 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:12,288  INFO [main] TestClass:71 - **********************Car loan tab is selected**********************
-2020-08-12 20:29:15,530 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:15,531 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:15,533 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:15,536 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:15,550 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:15,574  INFO [main] TestClass:83 - **********************Entering loan amount**********************
-2020-08-12 20:29:20,930 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:20,932 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:20,932 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:20,933 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:20,933 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:21,004  INFO [main] TestClass:98 - **********************Entering rate of interest**********************
-2020-08-12 20:29:24,433 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:24,434 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:24,434 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:24,434 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:24,434 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:24,488  INFO [main] TestClass:113 - **********************Entering the time period**********************
-2020-08-12 20:29:27,883 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:27,883 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:27,884 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:27,885 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:27,885 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:27,923  INFO [main] TestClass:126 - **********************Clicking on expand button**********************
-2020-08-12 20:29:31,054 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:31,055 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:31,056 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:31,057 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:31,057 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:31,103  INFO [main] TestClass:137 - **********************Taking screenshot**********************
-2020-08-12 20:29:31,480 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:31,481 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:31,481 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:31,481 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:31,482 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:31,515  INFO [main] TestClass:149 - **********************Writing data to excel sheet**********************
-2020-08-12 20:29:31,958 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:31,959 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:31,959 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:31,960 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:31,960 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:32,008  INFO [main] TestClass:172 - **********************Closing browser**********************
-2020-08-12 20:29:37,833  INFO [main] NegativeTestClass:40 - **********************Logging into browser**********************
-2020-08-12 20:29:39,291  INFO [main] NegativeTestClass:55 - **********************Starting test cases**********************
-2020-08-12 20:29:39,292  INFO [main] NegativeTestClass:56 - ****************Fetching the page title for negative testing****************
-2020-08-12 20:29:39,763 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:39,764 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:39,765 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:39,766 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:39,767 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:39,804  INFO [main] NegativeTestClass:69 - **********************Selecting car loan tab**********************
-2020-08-12 20:29:39,883  INFO [main] NegativeTestClass:71 - ******************Car loan button is verified**********************
-2020-08-12 20:29:39,886 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:39,886 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:39,887 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:39,888 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:39,889 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:39,934  INFO [main] NegativeTestClass:82 - **********************Car loan tab is selected**********************
-2020-08-12 20:29:43,109 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:43,110 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:43,111 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:43,111 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:43,112 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:43,151  INFO [main] NegativeTestClass:94 - **********************Entering loan amount**********************
-2020-08-12 20:29:46,437  INFO [main] NegativeTestClass:97 - **********************Car loan amount is set**********************
-2020-08-12 20:29:46,442 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:46,443 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:46,444 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:46,444 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:46,445 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:46,496  INFO [main] NegativeTestClass:107 - **********************Entering rate of interest**********************
-2020-08-12 20:29:46,496  INFO [main] NegativeTestClass:108 - **********************Rate of interest is set**********************
-2020-08-12 20:29:50,330  INFO [main] NegativeTestClass:110 - **********************Checking the value of interest field**********************
-2020-08-12 20:29:53,493 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:53,498 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:53,499 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:53,501 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:53,501 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:53,568  INFO [main] NegativeTestClass:138 - **********************Entering the time period**********************
-2020-08-12 20:29:56,876 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:56,877 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:56,878 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:56,879 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:56,879 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:56,928  INFO [main] NegativeTestClass:125 - **********************Taking screenshot**********************
-2020-08-12 20:29:57,334  INFO [main] NegativeTestClass:127 - Screenshot for negative test is complete
-2020-08-12 20:29:57,336 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2020-08-12 20:29:57,336 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2020-08-12 20:29:57,337 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2020-08-12 20:29:57,337 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2020-08-12 20:29:57,340 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2020-08-12 20:29:57,372  INFO [main] NegativeTestClass:166 - **********************Closing browser**********************
+2020-08-29 13:01:42,984 DEBUG [main] InternalLoggerFactory:53 - Using Log4J as the default logging framework
+2020-08-29 13:01:43,004 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
+2020-08-29 13:01:43,005 DEBUG [main] ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
+2020-08-29 13:01:43,019 DEBUG [main] ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@78c1a023
+2020-08-29 13:01:43,099 DEBUG [main] PlatformDependent:1015 - Platform: Windows
+2020-08-29 13:01:43,104 DEBUG [main] PlatformDependent0:408 - -Dio.netty.noUnsafe: false
+2020-08-29 13:01:43,104 DEBUG [main] PlatformDependent0:876 - Java version: 8
+2020-08-29 13:01:43,109 DEBUG [main] PlatformDependent0:125 - sun.misc.Unsafe.theUnsafe: available
+2020-08-29 13:01:43,111 DEBUG [main] PlatformDependent0:149 - sun.misc.Unsafe.copyMemory: available
+2020-08-29 13:01:43,113 DEBUG [main] PlatformDependent0:187 - java.nio.Buffer.address: available
+2020-08-29 13:01:43,116 DEBUG [main] PlatformDependent0:252 - direct buffer constructor: available
+2020-08-29 13:01:43,118 DEBUG [main] PlatformDependent0:326 - java.nio.Bits.unaligned: available, true
+2020-08-29 13:01:43,120 DEBUG [main] PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-08-29 13:01:43,120 DEBUG [main] PlatformDependent0:398 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-08-29 13:01:43,121 DEBUG [main] PlatformDependent:1058 - sun.misc.Unsafe: available
+2020-08-29 13:01:43,123 DEBUG [main] PlatformDependent:1177 - -Dio.netty.tmpdir: C:\Users\user\AppData\Local\Temp (java.io.tmpdir)
+2020-08-29 13:01:43,126 DEBUG [main] PlatformDependent:1256 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-08-29 13:01:43,130 DEBUG [main] PlatformDependent:177 - -Dio.netty.maxDirectMemory: 947388416 bytes
+2020-08-29 13:01:43,130 DEBUG [main] PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-08-29 13:01:43,135 DEBUG [main] CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2020-08-29 13:01:43,135 DEBUG [main] PlatformDependent:204 - -Dio.netty.noPreferDirect: false
+2020-08-29 13:01:43,190 DEBUG [main] PlatformDependent:919 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-08-29 13:01:43,640 DEBUG [main] JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-08-29 13:01:43,641 DEBUG [main] JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-08-29 13:01:43,751 DEBUG [main] InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-08-29 13:01:43,751 DEBUG [main] InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-08-29 13:01:43,782 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2020-08-29 13:01:43,816 DEBUG [main] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2020-08-29 13:01:43,817 DEBUG [main] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-08-29 13:01:43,943 DEBUG [main] PooledByteBufAllocator:156 - -Dio.netty.allocator.numHeapArenas: 8
+2020-08-29 13:01:43,943 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numDirectArenas: 8
+2020-08-29 13:01:43,944 DEBUG [main] PooledByteBufAllocator:159 - -Dio.netty.allocator.pageSize: 8192
+2020-08-29 13:01:43,944 DEBUG [main] PooledByteBufAllocator:164 - -Dio.netty.allocator.maxOrder: 11
+2020-08-29 13:01:43,945 DEBUG [main] PooledByteBufAllocator:168 - -Dio.netty.allocator.chunkSize: 16777216
+2020-08-29 13:01:43,946 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-08-29 13:01:43,946 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2020-08-29 13:01:43,947 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2020-08-29 13:01:43,948 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-08-29 13:01:43,948 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-08-29 13:01:43,949 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-08-29 13:01:43,949 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-08-29 13:01:43,949 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-08-29 13:01:43,986 DEBUG [main] ByteBufUtil:86 - -Dio.netty.allocator.type: pooled
+2020-08-29 13:01:43,986 DEBUG [main] ByteBufUtil:95 - -Dio.netty.threadLocalDirectBufferSize: 0
+2020-08-29 13:01:43,987 DEBUG [main] ByteBufUtil:98 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-08-29 13:01:46,311 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 700 (auto-detected)
+2020-08-29 13:01:46,318 DEBUG [Forwarding newSession on session null to remote] NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2020-08-29 13:01:46,319 DEBUG [Forwarding newSession on session null to remote] NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2020-08-29 13:01:46,376 DEBUG [Forwarding newSession on session null to remote] NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-08-29 13:01:46,379 DEBUG [Forwarding newSession on session null to remote] NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-08-29 13:01:46,442 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: b4:2e:99:ff:fe:4f:57:98 (auto-detected)
+2020-08-29 13:01:46,639 DEBUG [AsyncHttpClient-3-1] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2020-08-29 13:01:46,639 DEBUG [AsyncHttpClient-3-1] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2020-08-29 13:01:46,640 DEBUG [AsyncHttpClient-3-1] ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@71bc40ab
+2020-08-29 13:01:46,745 DEBUG [AsyncHttpClient-3-1] Recycler:97 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-08-29 13:01:46,745 DEBUG [AsyncHttpClient-3-1] Recycler:98 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-08-29 13:01:46,746 DEBUG [AsyncHttpClient-3-1] Recycler:99 - -Dio.netty.recycler.linkCapacity: 16
+2020-08-29 13:01:46,747 DEBUG [AsyncHttpClient-3-1] Recycler:100 - -Dio.netty.recycler.ratio: 8
+2020-08-29 13:01:56,438 DEBUG [main] ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0x6905d0945344c1a6
+2020-08-29 13:02:05,466  INFO [main] SmokeTest:40 - *************** *******Logging into browser**********************
+2020-08-29 13:02:08,049  INFO [main] SmokeTest:55 - **********************Starting test cases**********************
+2020-08-29 13:02:08,050  INFO [main] SmokeTest:56 - **********************Fetching the page title for smoke testing**********************
+2020-08-29 13:02:08,067  INFO [main] SmokeTest:61 - **********************The webpage title is verified**********************
+2020-08-29 13:02:09,345 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:09,349 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:09,358 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:09,360 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:09,361 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:13,201  INFO [main] SmokeTest:71 - **********************Verifying car loan tab**********************
+2020-08-29 13:02:13,625 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:13,626 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:13,627 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:13,627 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:13,628 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:13,695  INFO [main] SmokeTest:83 - **********************Car loan tab is selected**********************
+2020-08-29 13:02:16,903 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:16,905 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:16,906 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:16,908 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:16,911 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:16,984  INFO [main] SmokeTest:95 - **********************Checking whether loan amount tab is enabled or not**********************
+2020-08-29 13:02:17,044 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:17,054 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:17,055 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:17,056 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:17,056 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:17,098  INFO [main] SmokeTest:109 - **********************Verifying rate of interest**********************
+2020-08-29 13:02:17,161 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:17,161 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:17,162 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:17,164 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:17,165 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:17,215  INFO [main] SmokeTest:123 - **********************Verifying the tenure tab**********************
+2020-08-29 13:02:17,272 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:17,273 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:17,274 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:17,275 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:17,276 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:17,315  INFO [main] SmokeTest:149 - **********************Closing browser**********************
+2020-08-29 13:02:23,231  INFO [main] TestClass:44 - *************** *******Logging into browser**********************
+2020-08-29 13:02:25,195  INFO [main] TestClass:59 - **********************Starting test cases**********************
+2020-08-29 13:02:25,195  INFO [main] TestClass:60 - **********************Fetching the page title**********************
+2020-08-29 13:02:25,205 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:25,206 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:25,206 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:25,207 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:25,207 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:25,252  INFO [main] TestClass:74 - **********************Car loan tab is selected**********************
+2020-08-29 13:02:28,376 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:28,377 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:28,379 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:28,380 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:28,385 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:28,416  INFO [main] TestClass:86 - **********************Entering loan amount**********************
+2020-08-29 13:02:34,309 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:34,310 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:34,310 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:34,311 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:34,311 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:34,337  INFO [main] TestClass:101 - **********************Entering rate of interest**********************
+2020-08-29 13:02:37,726 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:37,727 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:37,728 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:37,728 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:37,729 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:37,759  INFO [main] TestClass:116 - **********************Entering the time period**********************
+2020-08-29 13:02:41,183 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:41,184 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:41,184 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:41,185 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:41,185 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:41,215  INFO [main] TestClass:129 - **********************Clicking on expand button**********************
+2020-08-29 13:02:44,317 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:44,317 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:44,317 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:44,318 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:44,318 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:44,355  INFO [main] TestClass:140 - **********************Taking screenshot**********************
+2020-08-29 13:02:44,824  INFO [main] TestClass:144 - **********************Generating screenshot for allure report**********************
+2020-08-29 13:02:45,177 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:45,178 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:45,178 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:45,179 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:45,179 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:45,210  INFO [main] TestClass:154 - **********************Writing data to excel sheet**********************
+2020-08-29 13:02:46,480 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:46,481 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:46,482 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:46,482 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:46,483 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:46,513  INFO [main] TestClass:183 - **********************Closing browser**********************
+2020-08-29 13:02:52,536  INFO [main] NegativeTestClass:43 - **********************Logging into browser**********************
+2020-08-29 13:02:53,770  INFO [main] NegativeTestClass:58 - **********************Starting test cases**********************
+2020-08-29 13:02:53,771  INFO [main] NegativeTestClass:59 - ****************Fetching the page title for negative testing****************
+2020-08-29 13:02:53,856 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:53,857 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:53,858 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:53,859 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:53,859 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:53,895  INFO [main] NegativeTestClass:72 - **********************Selecting car loan tab**********************
+2020-08-29 13:02:53,951  INFO [main] NegativeTestClass:74 - ******************Car loan button is verified**********************
+2020-08-29 13:02:53,958 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:53,959 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:53,960 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:53,960 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:53,961 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:54,001  INFO [main] NegativeTestClass:85 - **********************Car loan tab is selected**********************
+2020-08-29 13:02:57,268 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:02:57,270 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:02:57,271 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:02:57,272 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:02:57,273 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:02:57,312  INFO [main] NegativeTestClass:97 - **********************Entering loan amount**********************
+2020-08-29 13:03:00,559  INFO [main] NegativeTestClass:100 - **********************Car loan amount is set**********************
+2020-08-29 13:03:00,570 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:03:00,571 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:03:00,571 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:03:00,572 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:03:00,573 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:03:00,671  INFO [main] NegativeTestClass:110 - **********************Entering rate of interest**********************
+2020-08-29 13:03:00,672  INFO [main] NegativeTestClass:111 - **********************Rate of interest is set**********************
+2020-08-29 13:03:04,172  INFO [main] NegativeTestClass:113 - **********************Checking the value of interest field**********************
+2020-08-29 13:03:07,304 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:03:07,305 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:03:07,305 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:03:07,305 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:03:07,306 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:03:07,335  INFO [main] NegativeTestClass:143 - **********************Entering the time period**********************
+2020-08-29 13:03:10,676 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:03:10,677 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:03:10,678 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:03:10,679 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:03:10,681 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:03:10,753  INFO [main] NegativeTestClass:128 - **********************Taking screenshot**********************
+2020-08-29 13:03:11,353  INFO [main] NegativeTestClass:130 - Screenshot for negative test is complete
+2020-08-29 13:03:11,354  INFO [main] NegativeTestClass:132 - **********************Generating screenshot for allure report**********************
+2020-08-29 13:03:11,735 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-29 13:03:11,736 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-29 13:03:11,736 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-29 13:03:11,737 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-29 13:03:11,737 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-29 13:03:11,759  INFO [main] NegativeTestClass:177 - **********************Closing browser**********************
